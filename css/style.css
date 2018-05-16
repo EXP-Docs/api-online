@@ -90,7 +90,7 @@ p {
     font-size: 14px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 .navbar-nav>li>a:hover,

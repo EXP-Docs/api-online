@@ -78,12 +78,14 @@ exp.libs.warp.ui
 exp.libs.warp.ui.cpt.cbg
 exp.libs.warp.ui.cpt.pnl
 exp.libs.warp.ui.cpt.tbl
+exp.libs.warp.ui.cpt.tray
 exp.libs.warp.ui.cpt.win
 exp.libs.warp.ui.layout
 exp.libs.warp.ui.topo
 exp.libs.warp.ver
 exp.libs.warp.xls
 org.apache.commons.httpclient
+org.apache.commons.io
 org.apache.poi.xssf.usermodel
 org.logicalcobwebs.proxool
 org.logicalcobwebs.proxool.configuration
