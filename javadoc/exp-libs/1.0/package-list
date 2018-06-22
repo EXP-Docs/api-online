@@ -69,7 +69,11 @@ exp.libs.warp.net.telnet
 exp.libs.warp.net.tracert
 exp.libs.warp.net.tracert.bean
 exp.libs.warp.net.webkit
-exp.libs.warp.net.ws.client
+exp.libs.warp.net.websock
+exp.libs.warp.net.websock.bean
+exp.libs.warp.net.websock.interfaze
+exp.libs.warp.net.wsdl.client
+exp.libs.warp.net.wsdl.server
 exp.libs.warp.ocr
 exp.libs.warp.task
 exp.libs.warp.thread
