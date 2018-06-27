@@ -33,6 +33,7 @@ exp.libs.warp.cep.fun.impl.other
 exp.libs.warp.cep.fun.impl.sql
 exp.libs.warp.cep.fun.impl.str
 exp.libs.warp.cep.fun.impl.time
+exp.libs.warp.cmd
 exp.libs.warp.conf.xml
 exp.libs.warp.db.nosql
 exp.libs.warp.db.sql
@@ -51,7 +52,6 @@ exp.libs.warp.net.jms.mq.sup
 exp.libs.warp.net.mail
 exp.libs.warp.net.pf
 exp.libs.warp.net.ping
-exp.libs.warp.net.ping.bean
 exp.libs.warp.net.sock.bean
 exp.libs.warp.net.sock.io.client
 exp.libs.warp.net.sock.io.common
@@ -66,8 +66,6 @@ exp.libs.warp.net.sock.nio.common.handler
 exp.libs.warp.net.sock.nio.common.interfaze
 exp.libs.warp.net.sock.nio.server
 exp.libs.warp.net.telnet
-exp.libs.warp.net.tracert
-exp.libs.warp.net.tracert.bean
 exp.libs.warp.net.webkit
 exp.libs.warp.net.websock
 exp.libs.warp.net.websock.bean
