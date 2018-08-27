@@ -34,8 +34,11 @@ exp.libs.warp.cep.fun.impl.sql
 exp.libs.warp.cep.fun.impl.str
 exp.libs.warp.cep.fun.impl.time
 exp.libs.warp.cmd
+exp.libs.warp.conf.ini
+exp.libs.warp.conf.kv
 exp.libs.warp.conf.xml
-exp.libs.warp.db.nosql
+exp.libs.warp.db.nosql.bean
+exp.libs.warp.db.nosql.redis
 exp.libs.warp.db.sql
 exp.libs.warp.db.sql.bean
 exp.libs.warp.ehcache
@@ -46,10 +49,10 @@ exp.libs.warp.net.cookie
 exp.libs.warp.net.ftp
 exp.libs.warp.net.ftp.bean
 exp.libs.warp.net.http
-exp.libs.warp.net.jms.mq
-exp.libs.warp.net.jms.mq.bean
-exp.libs.warp.net.jms.mq.sup
 exp.libs.warp.net.mail
+exp.libs.warp.net.mq.jms
+exp.libs.warp.net.mq.jms.bean
+exp.libs.warp.net.mq.jms.sup
 exp.libs.warp.net.pf
 exp.libs.warp.net.ping
 exp.libs.warp.net.sock.bean
@@ -74,6 +77,7 @@ exp.libs.warp.net.wsdl.client
 exp.libs.warp.net.wsdl.server
 exp.libs.warp.ocr
 exp.libs.warp.task
+exp.libs.warp.task.cron
 exp.libs.warp.thread
 exp.libs.warp.tpl
 exp.libs.warp.ui
@@ -91,4 +95,5 @@ org.apache.commons.io
 org.apache.poi.xssf.usermodel
 org.logicalcobwebs.proxool
 org.logicalcobwebs.proxool.configuration
+org.quartz
 org.security
