@@ -37,8 +37,8 @@ exp.libs.warp.cmd
 exp.libs.warp.conf.ini
 exp.libs.warp.conf.kv
 exp.libs.warp.conf.xml
-exp.libs.warp.db.nosql.bean
-exp.libs.warp.db.nosql.redis
+exp.libs.warp.db.redis
+exp.libs.warp.db.redis.bean
 exp.libs.warp.db.sql
 exp.libs.warp.db.sql.bean
 exp.libs.warp.ehcache
