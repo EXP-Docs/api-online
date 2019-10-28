@@ -11,7 +11,17 @@
 }
 
 .blue-a {
-    background: #40E0D0;
+    background: #1759C7;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.pink-a {
+    background: #FFBBFF;
     display: inline-block;
     padding: 10px 15px;
     text-transform: uppercase;
@@ -21,7 +31,7 @@
 }
 
 .yellow-a {
-    background: #FFBBFF;
+    background: #C7AB17;
     display: inline-block;
     padding: 10px 15px;
     text-transform: uppercase;
