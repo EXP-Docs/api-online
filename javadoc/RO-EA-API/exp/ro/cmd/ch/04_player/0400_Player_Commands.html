@@ -2093,12 +2093,9 @@ sc_end_class {&lt;char_id&gt;{,&lt;job_id&gt;}};
 </font>
 
         
-        These commands will bestow a status effect on a character.
+        使指定对象陷入某种状态。
         
-        The &lt;effect type&gt; determines which status is invoked. This can be either a number
-        or constant, with the common statuses (mostly negative) found in 'src/map/script_constants.hpp'
-        with the 'SC_' prefix. A full list is located in 'src/map/status.hpp', though
-        they are not currently documented.
+        参数 &lt;effect type&gt; ：确定调用哪个状态，可以是数字或常量，可选范围为 [script_constants.hpp](https://github.com/lyy289065406/rathena/blob/master/src/map/script_constants.hpp) 中以 SC_ 为前缀的变量。
         
         The duration of the status is given in &lt;ticks&gt;, or milleseconds.
         Use INFINITE_TICK for infinite duration.
