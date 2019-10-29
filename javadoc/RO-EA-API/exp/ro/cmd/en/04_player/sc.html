@@ -1,0 +1,3232 @@
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="robots" content="noarchive" />
+		<meta name="author" content="EXP" />
+		<link rel="stylesheet" type="text/css" href="../../../../../page.css" />
+		<title>SOFTWARE-CERTIFICATE</title>
+	</head>
+
+	<body class="html">
+
+		<table class="dataintable">
+			<thead>
+				<tr>
+					<th align="left">状态编号</th>
+					<th align="left">状态常量值</th>
+					<th align="left">状态描述</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td align="left">0</td>
+					<td align="left">SC_STONE</td>
+					<td align="left">石化</td>
+				</tr>
+				<tr>
+					<td align="left">1</td>
+					<td align="left">1</td>
+					<td align="left">SC_FREEZE</td>
+				</tr>
+				<tr>
+					<td align="left">2</td>
+					<td align="left">SC_STUN</td>
+					<td align="left">晕眩</td>
+				</tr>
+				<tr>
+					<td align="left">3</td>
+					<td align="left">SC_SLEEP</td>
+					<td align="left">睡眠</td>
+				</tr>
+				<tr>
+					<td align="left">4</td>
+					<td align="left">SC_POISON</td>
+					<td align="left">中毒</td>
+				</tr>
+				<tr>
+					<td align="left">5</td>
+					<td align="left">SC_CURSE</td>
+					<td align="left">诅咒</td>
+				</tr>
+				<tr>
+					<td align="left">6</td>
+					<td align="left">SC_SILENCE</td>
+					<td align="left">沉默</td>
+				</tr>
+				<tr>
+					<td align="left">7</td>
+					<td align="left">SC_CONFUSION</td>
+					<td align="left">混乱</td>
+				</tr>
+				<tr>
+					<td align="left">8</td>
+					<td align="left">SC_BLIND</td>
+					<td align="left">黑暗</td>
+				</tr>
+				<tr>
+					<td align="left">9</td>
+					<td align="left">SC_BLEEDING</td>
+					<td align="left">出血</td>
+				</tr>
+				<tr>
+					<td align="left">10</td>
+					<td align="left">SC_DPOISON</td>
+					<td align="left">剧毒(猛毒)</td>
+				</tr>
+				<tr>
+					<td align="left">20</td>
+					<td align="left">SC_PROVOKE</td>
+					<td align="left">挑衅</td>
+				</tr>
+				<tr>
+					<td align="left">21</td>
+					<td align="left">SC_ENDURE</td>
+					<td align="left">霸体</td>
+				</tr>
+				<tr>
+					<td align="left">22</td>
+					<td align="left">SC_TWOHANDQUICKEN</td>
+					<td align="left">双手剑加速</td>
+				</tr>
+				<tr>
+					<td align="left">23</td>
+					<td align="left">SC_CONCENTRATE</td>
+					<td align="left">心神凝聚</td>
+				</tr>
+				<tr>
+					<td align="left">24</td>
+					<td align="left">SC_HIDING</td>
+					<td align="left">隐匿</td>
+				</tr>
+				<tr>
+					<td align="left">25</td>
+					<td align="left">SC_CLOAKING</td>
+					<td align="left">伪装</td>
+				</tr>
+				<tr>
+					<td align="left">26</td>
+					<td align="left">SC_ENCPOISON</td>
+					<td align="left">涂毒</td>
+				</tr>
+				<tr>
+					<td align="left">27</td>
+					<td align="left">SC_POISONREACT</td>
+					<td align="left">毒性反弹</td>
+				</tr>
+				<tr>
+					<td align="left">28</td>
+					<td align="left">SC_QUAGMIRE</td>
+					<td align="left">泥沼地</td>
+				</tr>
+				<tr>
+					<td align="left">29</td>
+					<td align="left">SC_ANGELUS</td>
+					<td align="left">天使之障壁</td>
+				</tr>
+				<tr>
+					<td align="left">30</td>
+					<td align="left">SC_BLESSING</td>
+					<td align="left">天使之赐福</td>
+				</tr>
+				<tr>
+					<td align="left">31</td>
+					<td align="left">SC_SIGNUMCRUCIS</td>
+					<td align="left">治疗术</td>
+				</tr>
+				<tr>
+					<td align="left">32</td>
+					<td align="left">SC_INCREASEAGI</td>
+					<td align="left">加速术</td>
+				</tr>
+				<tr>
+					<td align="left">33</td>
+					<td align="left">SC_DECREASEAGI</td>
+					<td align="left">缓速术</td>
+				</tr>
+				<tr>
+					<td align="left">34</td>
+					<td align="left">SC_SLOWPOISON</td>
+					<td align="left">缓毒术</td>
+				</tr>
+				<tr>
+					<td align="left">35</td>
+					<td align="left">SC_IMPOSITIO</td>
+					<td align="left">神威祈福</td>
+				</tr>
+				<tr>
+					<td align="left">36</td>
+					<td align="left">SC_SUFFRAGIUM</td>
+					<td align="left">牺牲祈福</td>
+				</tr>
+				<tr>
+					<td align="left">37</td>
+					<td align="left">SC_ASPERSIO</td>
+					<td align="left">撒水祈福、武器圣属性附加(温暖的风7级)</td>
+				</tr>
+				<tr>
+					<td align="left">38</td>
+					<td align="left">SC_BENEDICTIO</td>
+					<td align="left">圣之祈福</td>
+				</tr>
+				<tr>
+					<td align="left">39</td>
+					<td align="left">SC_KYRIE</td>
+					<td align="left">霸邪之阵</td>
+				</tr>
+				<tr>
+					<td align="left">40</td>
+					<td align="left">SC_MAGNIFICAT</td>
+					<td align="left">圣母之颂歌</td>
+				</tr>
+				<tr>
+					<td align="left">41</td>
+					<td align="left">SC_GLORIA</td>
+					<td align="left">幸运之颂歌</td>
+				</tr>
+				<tr>
+					<td align="left">42</td>
+					<td align="left">SC_AETERNA</td>
+					<td align="left">天使之怒</td>
+				</tr>
+				<tr>
+					<td align="left">43</td>
+					<td align="left">SC_ADRENALINE</td>
+					<td align="left">速度激发</td>
+				</tr>
+				<tr>
+					<td align="left">44</td>
+					<td align="left">SC_WEAPONPERFECTION</td>
+					<td align="left">无视体型</td>
+				</tr>
+				<tr>
+					<td align="left">45</td>
+					<td align="left">SC_OVERTHRUST</td>
+					<td align="left">凶砍</td>
+				</tr>
+				<tr>
+					<td align="left">46</td>
+					<td align="left">SC_MAXIMIZEPOWER</td>
+					<td align="left">武器值最大化</td>
+				</tr>
+				<tr>
+					<td align="left">47</td>
+					<td align="left">SC_TRICKDEAD</td>
+					<td align="left">装死</td>
+				</tr>
+				<tr>
+					<td align="left">48</td>
+					<td align="left">SC_LOUD</td>
+					<td align="left">大声呐喊</td>
+				</tr>
+				<tr>
+					<td align="left">49</td>
+					<td align="left">SC_ENERGYCOAT</td>
+					<td align="left">能量外套</td>
+				</tr>
+				<tr>
+					<td align="left">50</td>
+					<td align="left">SC_BROKENARMOR</td>
+					<td align="left">防具破碎</td>
+				</tr>
+				<tr>
+					<td align="left">51</td>
+					<td align="left">SC_BROKENWEAPON</td>
+					<td align="left">武器破碎</td>
+				</tr>
+				<tr>
+					<td align="left">52</td>
+					<td align="left">SC_HALLUCINATION</td>
+					<td align="left">幻觉</td>
+				</tr>
+				<tr>
+					<td align="left">53</td>
+					<td align="left">SC_WEIGHT50</td>
+					<td align="left">50趴负重</td>
+				</tr>
+				<tr>
+					<td align="left">54</td>
+					<td align="left">SC_WEIGHT90</td>
+					<td align="left">90趴负重</td>
+				</tr>
+				<tr>
+					<td align="left">55</td>
+					<td align="left">SC_ASPDPOTION0</td>
+					<td align="left">集中药水</td>
+				</tr>
+				<tr>
+					<td align="left">56</td>
+					<td align="left">SC_ASPDPOTION1</td>
+					<td align="left">觉醒药水</td>
+				</tr>
+				<tr>
+					<td align="left">57</td>
+					<td align="left">SC_ASPDPOTION2</td>
+					<td align="left">菠色克药水</td>
+				</tr>
+				<tr>
+					<td align="left">58</td>
+					<td align="left">SC_ASPDPOTION3</td>
+					<td align="left">攻击加速3(比菠色克更快，例如刺客吃毒药)</td>
+				</tr>
+				<tr>
+					<td align="left">59</td>
+					<td align="left">SC_SPEEDUP0</td>
+					<td align="left">移动速度提升0(和加速术一样快)</td>
+				</tr>
+				<tr>
+					<td align="left">60</td>
+					<td align="left">SC_SPEEDUP1</td>
+					<td align="left">移动速度提升1(比加速术更快)</td>
+				</tr>
+				<tr>
+					<td align="left">61</td>
+					<td align="left">SC_ATKPOTION</td>
+					<td align="left">atk提升药水</td>
+				</tr>
+				<tr>
+					<td align="left">62</td>
+					<td align="left">SC_MATKPOTION</td>
+					<td align="left">matk提升药水</td>
+				</tr>
+				<tr>
+					<td align="left">63</td>
+					<td align="left">SC_WEDDING</td>
+					<td align="left">结婚</td>
+				</tr>
+				<tr>
+					<td align="left">64</td>
+					<td align="left">SC_SLOWDOWN</td>
+					<td align="left">走路变慢(结婚用这个)</td>
+				</tr>
+				<tr>
+					<td align="left">65</td>
+					<td align="left">SC_ANKLE</td>
+					<td align="left">定位陷阱</td>
+				</tr>
+				<tr>
+					<td align="left">66</td>
+					<td align="left">SC_KEEPING</td>
+					<td align="left">防御提升(提升到DEF 90，但这个不是金刚不坏)</td>
+				</tr>
+				<tr>
+					<td align="left">67</td>
+					<td align="left">SC_BARRIER</td>
+					<td align="left">能源外套</td>
+				</tr>
+				<tr>
+					<td align="left">68</td>
+					<td align="left">SC_STRIPWEAPON</td>
+					<td align="left">卸除武器</td>
+				</tr>
+				<tr>
+					<td align="left">69</td>
+					<td align="left">SC_STRIPSHIELD</td>
+					<td align="left">卸除盾牌</td>
+				</tr>
+				<tr>
+					<td align="left">70</td>
+					<td align="left">SC_STRIPARMOR</td>
+					<td align="left">卸除盔甲</td>
+				</tr>
+				<tr>
+					<td align="left">71</td>
+					<td align="left">SC_STRIPHELM</td>
+					<td align="left">卸除头盔</td>
+				</tr>
+				<tr>
+					<td align="left">72</td>
+					<td align="left">SC_CP_WEAPON</td>
+					<td align="left">化学武器保护</td>
+				</tr>
+				<tr>
+					<td align="left">73</td>
+					<td align="left">SC_CP_SHIELD</td>
+					<td align="left">化学盾牌保护</td>
+				</tr>
+				<tr>
+					<td align="left">74</td>
+					<td align="left">SC_CP_ARMOR</td>
+					<td align="left">化学盔甲保护</td>
+				</tr>
+				<tr>
+					<td align="left">75</td>
+					<td align="left">SC_CP_HELM</td>
+					<td align="left">化学头盔保护</td>
+				</tr>
+				<tr>
+					<td align="left">76</td>
+					<td align="left">SC_AUTOGUARD</td>
+					<td align="left">自动防御</td>
+				</tr>
+				<tr>
+					<td align="left">77</td>
+					<td align="left">SC_REFLECTSHIELD</td>
+					<td align="left">反射盾</td>
+				</tr>
+				<tr>
+					<td align="left">78</td>
+					<td align="left">SC_SPLASHER</td>
+					<td align="left">毒性感染</td>
+				</tr>
+				<tr>
+					<td align="left">79</td>
+					<td align="left">SC_PROVIDENCE</td>
+					<td align="left">神佑之光</td>
+				</tr>
+				<tr>
+					<td align="left">80</td>
+					<td align="left">SC_DEFENDER</td>
+					<td align="left">光之盾</td>
+				</tr>
+				<tr>
+					<td align="left">81</td>
+					<td align="left">SC_MAGICROD</td>
+					<td align="left">魔法惩罚</td>
+				</tr>
+				<tr>
+					<td align="left">82</td>
+					<td align="left">SC_SPELLBREAKER</td>
+					<td align="left">念咒拆除</td>
+				</tr>
+				<tr>
+					<td align="left">83</td>
+					<td align="left">SC_AUTOSPELL</td>
+					<td align="left">自动念咒</td>
+				</tr>
+				<tr>
+					<td align="left">84</td>
+					<td align="left">SC_SIGHTTRASHER</td>
+					<td align="left">火柱攻击</td>
+				</tr>
+				<tr>
+					<td align="left">85</td>
+					<td align="left">SC_AUTOBERSERK</td>
+					<td align="left">狂暴</td>
+				</tr>
+				<tr>
+					<td align="left">86</td>
+					<td align="left">SC_SPEARQUICKEN</td>
+					<td align="left">长矛加速术</td>
+				</tr>
+				<tr>
+					<td align="left">87</td>
+					<td align="left">SC_AUTOCOUNTER</td>
+					<td align="left">反击</td>
+				</tr>
+				<tr>
+					<td align="left">88</td>
+					<td align="left">SC_SIGHT</td>
+					<td align="left">火狩</td>
+				</tr>
+				<tr>
+					<td align="left">89</td>
+					<td align="left">SC_SAFETYWALL</td>
+					<td align="left">暗之障壁</td>
+				</tr>
+				<tr>
+					<td align="left">90</td>
+					<td align="left">SC_RUWACH</td>
+					<td align="left">光猎</td>
+				</tr>
+				<tr>
+					<td align="left">91</td>
+					<td align="left">SC_EXTREMITYFIST</td>
+					<td align="left">阿修罗霸凰拳</td>
+				</tr>
+				<tr>
+					<td align="left">92</td>
+					<td align="left">SC_EXPLOSIONSPIRITS</td>
+					<td align="left">爆气</td>
+				</tr>
+				<tr>
+					<td align="left">93</td>
+					<td align="left">SC_COMBO</td>
+					<td align="left">连续技准备(六合拳)</td>
+				</tr>
+				<tr>
+					<td align="left">94</td>
+					<td align="left">SC_BLADESTOP_WAIT</td>
+					<td align="left">真剑百破道(等待触发)</td>
+				</tr>
+				<tr>
+					<td align="left">95</td>
+					<td align="left">SC_BLADESTOP</td>
+					<td align="left">真剑百破道(抓住变黑的)</td>
+				</tr>
+				<tr>
+					<td align="left">96</td>
+					<td align="left">SC_FIREWEAPON</td>
+					<td align="left">武器火属性附加(温暖的风4级)</td>
+				</tr>
+				<tr>
+					<td align="left">97</td>
+					<td align="left">SC_WATERWEAPON</td>
+					<td align="left">武器水属性附加(温暖的风3级)</td>
+				</tr>
+				<tr>
+					<td align="left">98</td>
+					<td align="left">SC_WINDWEAPON</td>
+					<td align="left">武器风属性附加(温暖的风2级)</td>
+				</tr>
+				<tr>
+					<td align="left">99</td>
+					<td align="left">SC_EARTHWEAPON</td>
+					<td align="left">武器地属性附加(温暖的风1级)</td>
+				</tr>
+				<tr>
+					<td align="left">100</td>
+					<td align="left">SC_VOLCANO</td>
+					<td align="left">火元素领域</td>
+				</tr>
+				<tr>
+					<td align="left">101</td>
+					<td align="left">SC_DELUGE</td>
+					<td align="left">水元素领域</td>
+				</tr>
+				<tr>
+					<td align="left">102</td>
+					<td align="left">SC_VIOLENTGALE</td>
+					<td align="left">风元素领域</td>
+				</tr>
+				<tr>
+					<td align="left">103</td>
+					<td align="left">SC_WATK_ELEMENT</td>
+					<td align="left">武器攻击属性伤害(例如怒爆)</td>
+				</tr>
+				<tr>
+					<td align="left">104</td>
+					<td align="left">SC_ARMOR</td>
+					<td align="left">属性变化卷轴</td>
+				</tr>
+				<tr>
+					<td align="left">105</td>
+					<td align="left">SC_ARMOR_ELEMENT</td>
+					<td align="left">盔甲属性</td>
+				</tr>
+				<tr>
+					<td align="left">106</td>
+					<td align="left">SC_NOCHAT</td>
+					<td align="left">禁言</td>
+				</tr>
+				<tr>
+					<td align="left">107</td>
+					<td align="left">SC_BABY</td>
+					<td align="left">养子</td>
+				</tr>
+				<tr>
+					<td align="left">108</td>
+					<td align="left">SC_AURABLADE</td>
+					<td align="left">灵气剑</td>
+				</tr>
+				<tr>
+					<td align="left">109</td>
+					<td align="left">SC_PARRYING</td>
+					<td align="left">双剑挌挡</td>
+				</tr>
+				<tr>
+					<td align="left">110</td>
+					<td align="left">SC_CONCENTRATION</td>
+					<td align="left">心神凝聚</td>
+				</tr>
+				<tr>
+					<td align="left">111</td>
+					<td align="left">SC_TENSIONRELAX</td>
+					<td align="left">极速回复</td>
+				</tr>
+				<tr>
+					<td align="left">112</td>
+					<td align="left">SC_BERSERK</td>
+					<td align="left">狂怒之枪</td>
+				</tr>
+				<tr>
+					<td align="left">113</td>
+					<td align="left">SC_FURY</td>
+					<td align="left">尚末使用</td>
+				</tr>
+				<tr>
+					<td align="left">114</td>
+					<td align="left">SC_GOSPEL</td>
+					<td align="left">圣音</td>
+				</tr>
+				<tr>
+					<td align="left">115</td>
+					<td align="left">SC_ASSUMPTIO</td>
+					<td align="left">圣母之祈福</td>
+				</tr>
+				<tr>
+					<td align="left">116</td>
+					<td align="left">SC_BASILICA</td>
+					<td align="left">神圣殿堂</td>
+				</tr>
+				<tr>
+					<td align="left">117</td>
+					<td align="left">SC_GUILDAURA</td>
+					<td align="left">工会技能范围效果</td>
+				</tr>
+				<tr>
+					<td align="left">118</td>
+					<td align="left">SC_MAGICPOWER</td>
+					<td align="left">魔力增幅</td>
+				</tr>
+				<tr>
+					<td align="left">119</td>
+					<td align="left">SC_EDP</td>
+					<td align="left">致命涂毒</td>
+				</tr>
+				<tr>
+					<td align="left">120</td>
+					<td align="left">SC_TRUESIGHT</td>
+					<td align="left">狙杀瞄准</td>
+				</tr>
+				<tr>
+					<td align="left">121</td>
+					<td align="left">SC_WINDWALK</td>
+					<td align="left">风之步</td>
+				</tr>
+				<tr>
+					<td align="left">122</td>
+					<td align="left">SC_MELTDOWN</td>
+					<td align="left">野蛮凶砍</td>
+				</tr>
+				<tr>
+					<td align="left">123</td>
+					<td align="left">SC_CARTBOOST</td>
+					<td align="left">手推车加速</td>
+				</tr>
+				<tr>
+					<td align="left">124</td>
+					<td align="left">SC_CHASEWALK</td>
+					<td align="left">暗影追踪</td>
+				</tr>
+				<tr>
+					<td align="left">125</td>
+					<td align="left">SC_REJECTSWORD</td>
+					<td align="left">霸王魂</td>
+				</tr>
+				<tr>
+					<td align="left">126</td>
+					<td align="left">SC_MARIONETTE</td>
+					<td align="left">傀儡师的把戏(施展)</td>
+				</tr>
+				<tr>
+					<td align="left">127</td>
+					<td align="left">SC_MARIONETTE2</td>
+					<td align="left">傀儡师的把戏(被施展)</td>
+				</tr>
+				<tr>
+					<td align="left">128</td>
+					<td align="left">SC_CHANGEUNDEAD</td>
+					<td align="left">变身不死族</td>
+				</tr>
+				<tr>
+					<td align="left">129</td>
+					<td align="left">SC_JOINTBEAT</td>
+					<td align="left">巧打</td>
+				</tr>
+				<tr>
+					<td align="left">130</td>
+					<td align="left">SC_MINDBREAKER</td>
+					<td align="left">精神撼动</td>
+				</tr>
+				<tr>
+					<td align="left">131</td>
+					<td align="left">SC_MEMORIZE</td>
+					<td align="left">速读术</td>
+				</tr>
+				<tr>
+					<td align="left">132</td>
+					<td align="left">SC_FOGWALL</td>
+					<td align="left">薄雾墙</td>
+				</tr>
+				<tr>
+					<td align="left">133</td>
+					<td align="left">SC_SPIDERWEB</td>
+					<td align="left">易燃之网</td>
+				</tr>
+				<tr>
+					<td align="left">134</td>
+					<td align="left">SC_DEVOTION</td>
+					<td align="left">牺牲</td>
+				</tr>
+				<tr>
+					<td align="left">135</td>
+					<td align="left">SC_SACRIFICE</td>
+					<td align="left">舍命攻击</td>
+				</tr>
+				<tr>
+					<td align="left">136</td>
+					<td align="left">SC_STEELBODY</td>
+					<td align="left">金刚不坏</td>
+				</tr>
+				<tr>
+					<td align="left">137</td>
+					<td align="left">SC_ORCISH</td>
+					<td align="left">变成兽人面孔</td>
+				</tr>
+				<tr>
+					<td align="left">138</td>
+					<td align="left">SC_READYSTORM</td>
+					<td align="left">回旋准备</td>
+				</tr>
+				<tr>
+					<td align="left">139</td>
+					<td align="left">SC_READYDOWN</td>
+					<td align="left">砸踢准备</td>
+				</tr>
+				<tr>
+					<td align="left">140</td>
+					<td align="left">SC_READYTURN</td>
+					<td align="left">踢准备</td>
+				</tr>
+				<tr>
+					<td align="left">141</td>
+					<td align="left">SC_READYCOUNTER</td>
+					<td align="left">还击踢准备</td>
+				</tr>
+				<tr>
+					<td align="left">142</td>
+					<td align="left">SC_DODGE</td>
+					<td align="left">落法</td>
+				</tr>
+				<tr>
+					<td align="left">143</td>
+					<td align="left">SC_RUN</td>
+					<td align="left">跑步</td>
+				</tr>
+				<tr>
+					<td align="left">144</td>
+					<td align="left">SC_SHADOWWEAPON</td>
+					<td align="left">武器暗属性附加(温暖的风6级)</td>
+				</tr>
+				<tr>
+					<td align="left">145</td>
+					<td align="left">SC_ADRENALINE2</td>
+					<td align="left">所有速度激发</td>
+				</tr>
+				<tr>
+					<td align="left">146</td>
+					<td align="left">SC_GHOSTWEAPON</td>
+					<td align="left">武器念属性附加(温暖的风5级)</td>
+				</tr>
+				<tr>
+					<td align="left">147</td>
+					<td align="left">SC_KAIZEL</td>
+					<td align="left">可立即复活(凯易哲)</td>
+				</tr>
+				<tr>
+					<td align="left">148</td>
+					<td align="left">SC_KAAHI</td>
+					<td align="left">受物理伤害消耗SP恢复HP(凯阿希)</td>
+				</tr>
+				<tr>
+					<td align="left">149</td>
+					<td align="left">SC_KAUPE</td>
+					<td align="left">物理攻击回避一次(凯诬仆)</td>
+				</tr>
+				<tr>
+					<td align="left">150</td>
+					<td align="left">SC_ONEHAND</td>
+					<td align="left">单手剑攻击速度增加</td>
+				</tr>
+				<tr>
+					<td align="left">151</td>
+					<td align="left">SC_PRESERVE</td>
+					<td align="left">自由保护</td>
+				</tr>
+				<tr>
+					<td align="left">152</td>
+					<td align="left">SC_BATTLEORDERS</td>
+					<td align="left">下达战斗命令(SID+5)</td>
+				</tr>
+				<tr>
+					<td align="left">153</td>
+					<td align="left">SC_REGENERATION</td>
+					<td align="left">复兴公会员体力</td>
+				</tr>
+				<tr>
+					<td align="left">154</td>
+					<td align="left">SC_DOUBLECAST</td>
+					<td align="left">双倍投掷</td>
+				</tr>
+				<tr>
+					<td align="left">155</td>
+					<td align="left">SC_GRAVITATION</td>
+					<td align="left">重力原野</td>
+				</tr>
+				<tr>
+					<td align="left">156</td>
+					<td align="left">SC_MAXOVERTHRUST</td>
+					<td align="left">凶砍最大值</td>
+				</tr>
+				<tr>
+					<td align="left">157</td>
+					<td align="left">SC_LONGING</td>
+					<td align="left">不要拘束我</td>
+				</tr>
+				<tr>
+					<td align="left">158</td>
+					<td align="left">SC_HERMODE</td>
+					<td align="left">海罗默德的手杖</td>
+				</tr>
+				<tr>
+					<td align="left">159</td>
+					<td align="left">SC_SHRINK</td>
+					<td align="left">防御反弹</td>
+				</tr>
+				<tr>
+					<td align="left">160</td>
+					<td align="left">SC_SIGHTBLASTER</td>
+					<td align="left">火狩冲击</td>
+				</tr>
+				<tr>
+					<td align="left">161</td>
+					<td align="left">SC_WINKCHARM</td>
+					<td align="left">被抛媚眼</td>
+				</tr>
+				<tr>
+					<td align="left">162</td>
+					<td align="left">SC_CLOSECONFINE</td>
+					<td align="left">紧密的约束施展</td>
+				</tr>
+				<tr>
+					<td align="left">163</td>
+					<td align="left">SC_CLOSECONFINE2</td>
+					<td align="left">紧密的约束被施展</td>
+				</tr>
+				<tr>
+					<td align="left">164</td>
+					<td align="left">SC_DANCING</td>
+					<td align="left">歌唱舞蹈</td>
+				</tr>
+				<tr>
+					<td align="left">165</td>
+					<td align="left">SC_ELEMENTALCHANGE</td>
+					<td align="left">铠甲属性变化</td>
+				</tr>
+				<tr>
+					<td align="left">166</td>
+					<td align="left">SC_RICHMANKIM</td>
+					<td align="left">经验值倍增</td>
+				</tr>
+				<tr>
+					<td align="left">167</td>
+					<td align="left">SC_ETERNALCHAOS</td>
+					<td align="left">永远的混沌</td>
+				</tr>
+				<tr>
+					<td align="left">168</td>
+					<td align="left">SC_DRUMBATTLE</td>
+					<td align="left">战鼓震天</td>
+				</tr>
+				<tr>
+					<td align="left">169</td>
+					<td align="left">SC_NIBELUNGEN</td>
+					<td align="left">尼贝隆根之戒指</td>
+				</tr>
+				<tr>
+					<td align="left">170</td>
+					<td align="left">SC_ROKISWEIL</td>
+					<td align="left">洛奇的悲鸣</td>
+				</tr>
+				<tr>
+					<td align="left">171</td>
+					<td align="left">SC_INTOABYSS</td>
+					<td align="left">触媒之所</td>
+				</tr>
+				<tr>
+					<td align="left">172</td>
+					<td align="left">SC_SIEGFRIED</td>
+					<td align="left">不死神齐格弗里德</td>
+				</tr>
+				<tr>
+					<td align="left">173</td>
+					<td align="left">SC_WHISTLE</td>
+					<td align="left">吹口哨</td>
+				</tr>
+				<tr>
+					<td align="left">174</td>
+					<td align="left">SC_ASSNCROS</td>
+					<td align="left">刺客的黄昏</td>
+				</tr>
+				<tr>
+					<td align="left">175</td>
+					<td align="left">SC_POEMBRAGI</td>
+					<td align="left">布莱奇之诗</td>
+				</tr>
+				<tr>
+					<td align="left">176</td>
+					<td align="left">SC_APPLEIDUN</td>
+					<td align="left">伊登的苹果</td>
+				</tr>
+				<tr>
+					<td align="left">177</td>
+					<td align="left">SC_MODECHANGE</td>
+					<td align="left">魔物行为模式改变</td>
+				</tr>
+				<tr>
+					<td align="left">178</td>
+					<td align="left">SC_HUMMING</td>
+					<td align="left">哼唱之音</td>
+				</tr>
+				<tr>
+					<td align="left">179</td>
+					<td align="left">SC_DONTFORGETME</td>
+					<td align="left">勿忘我</td>
+				</tr>
+				<tr>
+					<td align="left">180</td>
+					<td align="left">SC_FORTUNE</td>
+					<td align="left">女神之吻</td>
+				</tr>
+				<tr>
+					<td align="left">181</td>
+					<td align="left">SC_SERVICE4U</td>
+					<td align="left">为你服务</td>
+				</tr>
+				<tr>
+					<td align="left">182</td>
+					<td align="left">SC_STOP</td>
+					<td align="left">停止</td>
+				</tr>
+				<tr>
+					<td align="left">183</td>
+					<td align="left">SC_SPURT</td>
+					<td align="left">跑步飞奔中的</td>
+				</tr>
+				<tr>
+					<td align="left">184</td>
+					<td align="left">SC_SPIRIT</td>
+					<td align="left">赋予灵魂</td>
+				</tr>
+				<tr>
+					<td align="left">185</td>
+					<td align="left">SC_COMA</td>
+					<td align="left">频死</td>
+				</tr>
+				<tr>
+					<td align="left">186</td>
+					<td align="left">SC_INTRAVISION</td>
+					<td align="left">看见隐身的(例如阳光的箱子)</td>
+				</tr>
+				<tr>
+					<td align="left">187</td>
+					<td align="left">SC_INCALLSTATUS</td>
+					<td align="left">给所有素质加成</td>
+				</tr>
+				<tr>
+					<td align="left">188</td>
+					<td align="left">SC_INCSTR</td>
+					<td align="left">STR提升</td>
+				</tr>
+				<tr>
+					<td align="left">189</td>
+					<td align="left">SC_INCAGI</td>
+					<td align="left">AGI提升</td>
+				</tr>
+				<tr>
+					<td align="left">190</td>
+					<td align="left">SC_INCVIT</td>
+					<td align="left">VIT提升</td>
+				</tr>
+				<tr>
+					<td align="left">191</td>
+					<td align="left">SC_INCINT</td>
+					<td align="left">INT提升</td>
+				</tr>
+				<tr>
+					<td align="left">192</td>
+					<td align="left">SC_INCDEX</td>
+					<td align="left">DEX提升</td>
+				</tr>
+				<tr>
+					<td align="left">193</td>
+					<td align="left">SC_INCLUK</td>
+					<td align="left">LUK提升</td>
+				</tr>
+				<tr>
+					<td align="left">194</td>
+					<td align="left">SC_INCHIT</td>
+					<td align="left">命中提升</td>
+				</tr>
+				<tr>
+					<td align="left">195</td>
+					<td align="left">SC_INCHITRATE</td>
+					<td align="left">命中率提升</td>
+				</tr>
+				<tr>
+					<td align="left">196</td>
+					<td align="left">SC_INCFLEE</td>
+					<td align="left">回避提升</td>
+				</tr>
+				<tr>
+					<td align="left">197</td>
+					<td align="left">SC_INCFLEERATE</td>
+					<td align="left">回避率提升</td>
+				</tr>
+				<tr>
+					<td align="left">198</td>
+					<td align="left">SC_INCMHPRATE</td>
+					<td align="left">最大HP倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">199</td>
+					<td align="left">SC_INCMSPRATE</td>
+					<td align="left">最大SP倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">200</td>
+					<td align="left">SC_INCATKRATE</td>
+					<td align="left">物理攻击力倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">201</td>
+					<td align="left">SC_INCMATKRATE</td>
+					<td align="left">魔法攻击力倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">202</td>
+					<td align="left">SC_INCDEFRATE</td>
+					<td align="left">防御力倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">203</td>
+					<td align="left">SC_STRFOOD</td>
+					<td align="left">力量料理</td>
+				</tr>
+				<tr>
+					<td align="left">204</td>
+					<td align="left">SC_AGIFOOD</td>
+					<td align="left">敏捷料理</td>
+				</tr>
+				<tr>
+					<td align="left">205</td>
+					<td align="left">SC_VITFOOD</td>
+					<td align="left">体力料理</td>
+				</tr>
+				<tr>
+					<td align="left">206</td>
+					<td align="left">SC_INTFOOD</td>
+					<td align="left">智力料理</td>
+				</tr>
+				<tr>
+					<td align="left">207</td>
+					<td align="left">SC_DEXFOOD</td>
+					<td align="left">灵巧料理</td>
+				</tr>
+				<tr>
+					<td align="left">208</td>
+					<td align="left">SC_LUKFOOD</td>
+					<td align="left">幸运料理</td>
+				</tr>
+				<tr>
+					<td align="left">209</td>
+					<td align="left">SC_HITFOOD</td>
+					<td align="left">命中率提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">210</td>
+					<td align="left">SC_FLEEFOOD</td>
+					<td align="left">回避率提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">211</td>
+					<td align="left">SC_BATKFOOD</td>
+					<td align="left">基础ATK提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">212</td>
+					<td align="left">SC_WATKFOOD</td>
+					<td align="left">武器ATK提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">213</td>
+					<td align="left">SC_MATKFOOD</td>
+					<td align="left">魔法攻击力提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">214</td>
+					<td align="left">SC_SCRESIST</td>
+					<td align="left">异常底抗力倍率</td>
+				</tr>
+				<tr>
+					<td align="left">215</td>
+					<td align="left">SC_XMAS</td>
+					<td align="left">圣诞装造型</td>
+				</tr>
+				<tr>
+					<td align="left">216</td>
+					<td align="left">SC_WARM</td>
+					<td align="left">加热器</td>
+				</tr>
+				<tr>
+					<td align="left">217</td>
+					<td align="left">SC_SUN_COMFORT</td>
+					<td align="left">太阳的平安感</td>
+				</tr>
+				<tr>
+					<td align="left">218</td>
+					<td align="left">SC_MOON_COMFORT</td>
+					<td align="left">月亮的平安感</td>
+				</tr>
+				<tr>
+					<td align="left">219</td>
+					<td align="left">SC_STAR_COMFORT</td>
+					<td align="left">星星的平安感</td>
+				</tr>
+				<tr>
+					<td align="left">220</td>
+					<td align="left">SC_FUSION</td>
+					<td align="left">太阳和月亮和星星的融合</td>
+				</tr>
+				<tr>
+					<td align="left">221</td>
+					<td align="left">SC_SKILLRATE_UP</td>
+					<td align="left">技能发动率提升</td>
+				</tr>
+				<tr>
+					<td align="left">222</td>
+					<td align="left">SC_SKE</td>
+					<td align="left">魔物攻击力X4防御力%2(艾斯克)</td>
+				</tr>
+				<tr>
+					<td align="left">223</td>
+					<td align="left">SC_KAITE</td>
+					<td align="left">魔法反射(凯易特)</td>
+				</tr>
+				<tr>
+					<td align="left">224</td>
+					<td align="left">SC_SWOO</td>
+					<td align="left">魔物变小移动降低(艾斯诬)</td>
+				</tr>
+				<tr>
+					<td align="left">225</td>
+					<td align="left">SC_SKA</td>
+					<td align="left">艾斯卡</td>
+				</tr>
+				<tr>
+					<td align="left">226</td>
+					<td align="left">SC_EARTH</td>
+					<td align="left">快乐的休息</td>
+				</tr>
+				<tr>
+					<td align="left">227</td>
+					<td align="left">SC_MIRACLE</td>
+					<td align="left">太阳与月亮与星星的奇迹</td>
+				</tr>
+				<tr>
+					<td align="left">228</td>
+					<td align="left">SC_MADNESSCANCEL</td>
+					<td align="left">疯狂取消</td>
+				</tr>
+				<tr>
+					<td align="left">229</td>
+					<td align="left">SC_ADJUSTMENT</td>
+					<td align="left">终极闪躲</td>
+				</tr>
+				<tr>
+					<td align="left">230</td>
+					<td align="left">SC_INCREASING</td>
+					<td align="left">命中率递增</td>
+				</tr>
+				<tr>
+					<td align="left">231</td>
+					<td align="left">SC_GATLINGFEVER</td>
+					<td align="left">格林狂热</td>
+				</tr>
+				<tr>
+					<td align="left">232</td>
+					<td align="left">SC_TATAMIGAESHI</td>
+					<td align="left">榻榻米攻击</td>
+				</tr>
+				<tr>
+					<td align="left">233</td>
+					<td align="left">SC_UTSUSEMI</td>
+					<td align="left">金蝉脱壳</td>
+				</tr>
+				<tr>
+					<td align="left">234</td>
+					<td align="left">SC_BUNSINJYUTSU</td>
+					<td align="left">幻影分身</td>
+				</tr>
+				<tr>
+					<td align="left">235</td>
+					<td align="left">SC_KAENSIN</td>
+					<td align="left">尚未使用</td>
+				</tr>
+				<tr>
+					<td align="left">236</td>
+					<td align="left">SC_SUITON</td>
+					<td align="left">水遁</td>
+				</tr>
+				<tr>
+					<td align="left">237</td>
+					<td align="left">SC_NEN</td>
+					<td align="left">忍者[念]</td>
+				</tr>
+				<tr>
+					<td align="left">238</td>
+					<td align="left">SC_KNOWLEDGE</td>
+					<td align="left">太阳和月亮和星星的知识(效果是提升最大负重)</td>
+				</tr>
+				<tr>
+					<td align="left">239</td>
+					<td align="left">SC_SMA</td>
+					<td align="left">可咏唱艾斯麻</td>
+				</tr>
+				<tr>
+					<td align="left">240</td>
+					<td align="left">SC_FLING</td>
+					<td align="left">投掷硬币</td>
+				</tr>
+				<tr>
+					<td align="left">241</td>
+					<td align="left">SC_AVOID</td>
+					<td align="left">轻捷移动</td>
+				</tr>
+				<tr>
+					<td align="left">242</td>
+					<td align="left">SC_CHANGE</td>
+					<td align="left">智力变换</td>
+				</tr>
+				<tr>
+					<td align="left">243</td>
+					<td align="left">SC_BLOODLUST</td>
+					<td align="left">血的贪求</td>
+				</tr>
+				<tr>
+					<td align="left">244</td>
+					<td align="left">SC_FLEET</td>
+					<td align="left">横越速度</td>
+				</tr>
+				<tr>
+					<td align="left">245</td>
+					<td align="left">SC_SPEED</td>
+					<td align="left">紧急回避</td>
+				</tr>
+				<tr>
+					<td align="left">246</td>
+					<td align="left">SC_DEFENCE</td>
+					<td align="left">圣音</td>
+				</tr>
+				<tr>
+					<td align="left">247</td>
+					<td align="left">SC_INCASPDRATE</td>
+					<td align="left">增加攻速倍率</td>
+				</tr>
+				<tr>
+					<td align="left">248</td>
+					<td align="left">SC_INCFLEE2</td>
+					<td align="left">提升完全回避率</td>
+				</tr>
+				<tr>
+					<td align="left">249</td>
+					<td align="left">SC_JAILED</td>
+					<td align="left">监禁</td>
+				</tr>
+				<tr>
+					<td align="left">250</td>
+					<td align="left">SC_ENCHANTARMS</td>
+					<td align="left">武器属性附加</td>
+				</tr>
+				<tr>
+					<td align="left">251</td>
+					<td align="left">SC_MAGICALATTACK</td>
+					<td align="left">魔耗攻击</td>
+				</tr>
+				<tr>
+					<td align="left">252</td>
+					<td align="left">SC_ARMORCHANGE</td>
+					<td align="left">巨石外壳</td>
+				</tr>
+				<tr>
+					<td align="left">253</td>
+					<td align="left">SC_CRITICALWOUND</td>
+					<td align="left">致命伤口</td>
+				</tr>
+				<tr>
+					<td align="left">254</td>
+					<td align="left">SC_MAGICMIRROR</td>
+					<td align="left">魔术之镜</td>
+				</tr>
+				<tr>
+					<td align="left">255</td>
+					<td align="left">SC_SLOWCAST</td>
+					<td align="left">咏唱减缓</td>
+				</tr>
+				<tr>
+					<td align="left">256</td>
+					<td align="left">SC_SUMMER</td>
+					<td align="left">夏天泳装</td>
+				</tr>
+				<tr>
+					<td align="left">257</td>
+					<td align="left">SC_EXPBOOST</td>
+					<td align="left">基础经验倍增</td>
+				</tr>
+				<tr>
+					<td align="left">258</td>
+					<td align="left">SC_ITEMBOOST</td>
+					<td align="left">掉宝率倍增</td>
+				</tr>
+				<tr>
+					<td align="left">259</td>
+					<td align="left">SC_BOSSMAPINFO</td>
+					<td align="left">BOSS雷达</td>
+				</tr>
+				<tr>
+					<td align="left">260</td>
+					<td align="left">SC_LIFEINSURANCE</td>
+					<td align="left">免掉啪</td>
+				</tr>
+				<tr>
+					<td align="left">261</td>
+					<td align="left">SC_INCCRI</td>
+					<td align="left">必杀攻击率提升</td>
+				</tr>
+				<tr>
+					<td align="left">262</td>
+					<td align="left">SC_INCDEF</td>
+					<td align="left">防御提升</td>
+				</tr>
+				<tr>
+					<td align="left">263</td>
+					<td align="left">SC_INCBASEATK</td>
+					<td align="left">基础攻击力增加</td>
+				</tr>
+				<tr>
+					<td align="left">264</td>
+					<td align="left">SC_FASTCAST</td>
+					<td align="left">尚末使用</td>
+				</tr>
+				<tr>
+					<td align="left">265</td>
+					<td align="left">SC_MDEF_RATE</td>
+					<td align="left">动魔法防御倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">266</td>
+					<td align="left">SC_HPREGEN</td>
+					<td align="left">尚末使用</td>
+				</tr>
+				<tr>
+					<td align="left">267</td>
+					<td align="left">SC_INCHEALRATE</td>
+					<td align="left">对恢复补品的性能提升</td>
+				</tr>
+				<tr>
+					<td align="left">268</td>
+					<td align="left">SC_PNEUMA</td>
+					<td align="left">光壁</td>
+				</tr>
+				<tr>
+					<td align="left">269</td>
+					<td align="left">SC_AUTOTRADE</td>
+					<td align="left">离线挂店</td>
+				</tr>
+				<tr>
+					<td align="left">270</td>
+					<td align="left">SC_KSPROTECTED</td>
+					<td align="left">魔物的防抢保护</td>
+				</tr>
+				<tr>
+					<td align="left">271</td>
+					<td align="left">SC_ARMOR_RESIST</td>
+					<td align="left">水、地、火、风元素抵抗率提升</td>
+				</tr>
+				<tr>
+					<td align="left">272</td>
+					<td align="left">SC_SPCOST_RATE</td>
+					<td align="left">减少sp消秏率</td>
+				</tr>
+				<tr>
+					<td align="left">273</td>
+					<td align="left">SC_COMMONSC_RESIST</td>
+					<td align="left">提升异常防御抵抗率</td>
+				</tr>
+				<tr>
+					<td align="left">274</td>
+					<td align="left">SC_SEVENWIND</td>
+					<td align="left">温暖的风(不会改变属性)</td>
+				</tr>
+				<tr>
+					<td align="left">275</td>
+					<td align="left">SC_DEF_RATE</td>
+					<td align="left">对物理攻击的耐性提升</td>
+				</tr>
+				<tr>
+					<td align="left">276</td>
+					<td align="left">SC_SPREGEN</td>
+					<td align="left">尚未使用(可能是sp恢复提升)</td>
+				</tr>
+				<tr>
+					<td align="left">277</td>
+					<td align="left">SC_WALKSPEED</td>
+					<td align="left">移速提升</td>
+				</tr>
+				<tr>
+					<td align="left">278</td>
+					<td align="left">SC_MERC_FLEEUP</td>
+					<td align="left">佣兵回避提升</td>
+				</tr>
+				<tr>
+					<td align="left">279</td>
+					<td align="left">SC_MERC_ATKUP</td>
+					<td align="left">佣兵攻击力提升</td>
+				</tr>
+				<tr>
+					<td align="left">280</td>
+					<td align="left">SC_MERC_HPUP</td>
+					<td align="left">佣兵HP增加</td>
+				</tr>
+				<tr>
+					<td align="left">281</td>
+					<td align="left">SC_MERC_SPUP</td>
+					<td align="left">佣兵SP增加</td>
+				</tr>
+				<tr>
+					<td align="left">282</td>
+					<td align="left">SC_MERC_HITUP</td>
+					<td align="left">佣兵命中率提升</td>
+				</tr>
+				<tr>
+					<td align="left">283</td>
+					<td align="left">SC_MERC_QUICKEN</td>
+					<td align="left">佣兵加速武器</td>
+				</tr>
+				<tr>
+					<td align="left">284</td>
+					<td align="left">SC_REBIRTH</td>
+					<td align="left">魔物的重生</td>
+				</tr>
+				<tr>
+					<td align="left">285</td>
+					<td align="left">SC_SKILLCASTRATE</td>
+					<td align="left">尚未使用(变动施法时间减少)</td>
+				</tr>
+				<tr>
+					<td align="left">286</td>
+					<td align="left">SC_DEFRATIOATK</td>
+					<td align="left">尚未使用(浸透劲效果)</td>
+				</tr>
+				<tr>
+					<td align="left">287</td>
+					<td align="left">SC_HPDRAIN</td>
+					<td align="left">每n秒减少xHP(以前跳跳糖用的)</td>
+				</tr>
+				<tr>
+					<td align="left">288</td>
+					<td align="left">SC_SKILLATKBONUS</td>
+					<td align="left">猫叫</td>
+				</tr>
+				<tr>
+					<td align="left">289</td>
+					<td align="left">SC_ITEMSCRIPT</td>
+					<td align="left">道具脚本SC</td>
+				</tr>
+				<tr>
+					<td align="left">290</td>
+					<td align="left">SC_S_LIFEPOTION</td>
+					<td align="left">小型生命水</td>
+				</tr>
+				<tr>
+					<td align="left">291</td>
+					<td align="left">SC_L_LIFEPOTION</td>
+					<td align="left">中型生命水</td>
+				</tr>
+				<tr>
+					<td align="left">292</td>
+					<td align="left">SC_JEXPBOOST</td>
+					<td align="left">JOB职业经验值倍增</td>
+				</tr>
+				<tr>
+					<td align="left">293</td>
+					<td align="left">SC_IGNOREDEF</td>
+					<td align="left">无视防御力</td>
+				</tr>
+				<tr>
+					<td align="left">294</td>
+					<td align="left">SC_HELLPOWER</td>
+					<td align="left">地狱之权威</td>
+				</tr>
+				<tr>
+					<td align="left">295</td>
+					<td align="left">SC_INVINCIBLE</td>
+					<td align="left">无敌开启</td>
+				</tr>
+				<tr>
+					<td align="left">296</td>
+					<td align="left">SC_INVINCIBLEOFF</td>
+					<td align="left">取消无敌</td>
+				</tr>
+				<tr>
+					<td align="left">297</td>
+					<td align="left">SC_MANU_ATK</td>
+					<td align="left">魔怒克的良机</td>
+				</tr>
+				<tr>
+					<td align="left">298</td>
+					<td align="left">SC_MANU_DEF</td>
+					<td align="left">魔怒克的意志</td>
+				</tr>
+				<tr>
+					<td align="left">299</td>
+					<td align="left">SC_SPL_ATK</td>
+					<td align="left">捕虫堇妖果酱</td>
+				</tr>
+				<tr>
+					<td align="left">300</td>
+					<td align="left">SC_SPL_DEF</td>
+					<td align="left">鲁修拉的蜜酱</td>
+				</tr>
+				<tr>
+					<td align="left">301</td>
+					<td align="left">SC_MANU_MATK</td>
+					<td align="left">魔怒克的信念</td>
+				</tr>
+				<tr>
+					<td align="left">302</td>
+					<td align="left">SC_SPL_MATK</td>
+					<td align="left">独角飞马之泪</td>
+				</tr>
+				<tr>
+					<td align="left">303</td>
+					<td align="left">SC_FOOD_STR_CASH</td>
+					<td align="left">STR提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">304</td>
+					<td align="left">SC_FOOD_AGI_CASH</td>
+					<td align="left">AGI提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">305</td>
+					<td align="left">SC_FOOD_VIT_CASH</td>
+					<td align="left">VIT提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">306</td>
+					<td align="left">SC_FOOD_DEX_CASH</td>
+					<td align="left">DEX提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">307</td>
+					<td align="left">SC_FOOD_INT_CASH</td>
+					<td align="left">INI提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">308</td>
+					<td align="left">SC_FOOD_LUK_CASH</td>
+					<td align="left">LUK提升料理</td>
+				</tr>
+				<tr>
+					<td align="left">309</td>
+					<td align="left">SC_FEAR</td>
+					<td align="left">微风恐惧</td>
+				</tr>
+				<tr>
+					<td align="left">310</td>
+					<td align="left">SC_BURNING</td>
+					<td align="left">燃烧</td>
+				</tr>
+				<tr>
+					<td align="left">311</td>
+					<td align="left">SC_FREEZING</td>
+					<td align="left">冻僵</td>
+				</tr>
+				<tr>
+					<td align="left">312</td>
+					<td align="left">SC_ENCHANTBLADE</td>
+					<td align="left">魔力剑</td>
+				</tr>
+				<tr>
+					<td align="left">313</td>
+					<td align="left">SC_DEATHBOUND</td>
+					<td align="left">死亡反弹</td>
+				</tr>
+				<tr>
+					<td align="left">314</td>
+					<td align="left">SC_MILLENNIUMSHIELD</td>
+					<td align="left">千年神盾</td>
+				</tr>
+				<tr>
+					<td align="left">315</td>
+					<td align="left">SC_CRUSHSTRIKE</td>
+					<td align="left">重击强袭</td>
+				</tr>
+				<tr>
+					<td align="left">316</td>
+					<td align="left">SC_REFRESH</td>
+					<td align="left">恢复</td>
+				</tr>
+				<tr>
+					<td align="left">317</td>
+					<td align="left">SC_REUSE_REFRESH</td>
+					<td align="left">恢复冷却</td>
+				</tr>
+				<tr>
+					<td align="left">318</td>
+					<td align="left">SC_GIANTGROWTH</td>
+					<td align="left">力量成长</td>
+				</tr>
+				<tr>
+					<td align="left">319</td>
+					<td align="left">SC_STONEHARDSKIN</td>
+					<td align="left">岩石皮肤</td>
+				</tr>
+				<tr>
+					<td align="left">320</td>
+					<td align="left">SC_VITALITYACTIVATION</td>
+					<td align="left">生命激化</td>
+				</tr>
+				<tr>
+					<td align="left">321</td>
+					<td align="left">SC_STORMBLAST</td>
+					<td align="left">风暴冲击</td>
+				</tr>
+				<tr>
+					<td align="left">322</td>
+					<td align="left">SC_FIGHTINGSPIRIT</td>
+					<td align="left">提升斗志</td>
+				</tr>
+				<tr>
+					<td align="left">323</td>
+					<td align="left">SC_ABUNDANCE</td>
+					<td align="left">丰足</td>
+				</tr>
+				<tr>
+					<td align="left">324</td>
+					<td align="left">SC_ADORAMUS</td>
+					<td align="left">讴歌</td>
+				</tr>
+				<tr>
+					<td align="left">325</td>
+					<td align="left">SC_EPICLESIS</td>
+					<td align="left">圣灵降临祈祷</td>
+				</tr>
+				<tr>
+					<td align="left">326</td>
+					<td align="left">SC_ORATIO</td>
+					<td align="left">祈祷文</td>
+				</tr>
+				<tr>
+					<td align="left">327</td>
+					<td align="left">SC_LAUDAAGNUS</td>
+					<td align="left">羔羊歌颂</td>
+				</tr>
+				<tr>
+					<td align="left">328</td>
+					<td align="left">SC_LAUDARAMUS</td>
+					<td align="left">折枝赞颂</td>
+				</tr>
+				<tr>
+					<td align="left">329</td>
+					<td align="left">SC_RENOVATIO</td>
+					<td align="left">净化</td>
+				</tr>
+				<tr>
+					<td align="left">330</td>
+					<td align="left">SC_EXPIATIO</td>
+					<td align="left">赎罪</td>
+				</tr>
+				<tr>
+					<td align="left">331</td>
+					<td align="left">SC_DUPLELIGHT</td>
+					<td align="left">二道圣光</td>
+				</tr>
+				<tr>
+					<td align="left">332</td>
+					<td align="left">SC_SECRAMENT</td>
+					<td align="left">圣典</td>
+				</tr>
+				<tr>
+					<td align="left">333</td>
+					<td align="left">SC_WHITEIMPRISON</td>
+					<td align="left">白色监狱</td>
+				</tr>
+				<tr>
+					<td align="left">334</td>
+					<td align="left">SC_MARSHOFABYSS</td>
+					<td align="left">深渊沼地</td>
+				</tr>
+				<tr>
+					<td align="left">335</td>
+					<td align="left">SC_RECOGNIZEDSPELL</td>
+					<td align="left">魔法省悟</td>
+				</tr>
+				<tr>
+					<td align="left">336</td>
+					<td align="left">SC_STASIS</td>
+					<td align="left">魔力冻结</td>
+				</tr>
+				<tr>
+					<td align="left">337</td>
+					<td align="left">SC_SPHERE_1</td>
+					<td align="left">属性漩涡元素球1</td>
+				</tr>
+				<tr>
+					<td align="left">338</td>
+					<td align="left">SC_SPHERE_2</td>
+					<td align="left">属性漩涡元素球2</td>
+				</tr>
+				<tr>
+					<td align="left">339</td>
+					<td align="left">SC_SPHERE_3</td>
+					<td align="left">属性漩涡元素球3</td>
+				</tr>
+				<tr>
+					<td align="left">340</td>
+					<td align="left">SC_SPHERE_4</td>
+					<td align="left">属性漩涡元素球4</td>
+				</tr>
+				<tr>
+					<td align="left">341</td>
+					<td align="left">SC_SPHERE_5</td>
+					<td align="left">属性漩涡元素球5</td>
+				</tr>
+				<tr>
+					<td align="left">342</td>
+					<td align="left">SC_READING_SB</td>
+					<td align="left">尚未使用</td>
+				</tr>
+				<tr>
+					<td align="left">343</td>
+					<td align="left">SC_FREEZE_SP</td>
+					<td align="left">魔法保存</td>
+				</tr>
+				<tr>
+					<td align="left">344</td>
+					<td align="left">SC_FEARBREEZE</td>
+					<td align="left">微风恐惧</td>
+				</tr>
+				<tr>
+					<td align="left">345</td>
+					<td align="left">SC_ELECTRICSHOCKER</td>
+					<td align="left">电击陷阱</td>
+				</tr>
+				<tr>
+					<td align="left">346</td>
+					<td align="left">SC_WUGDASH</td>
+					<td align="left">疾狼术</td>
+				</tr>
+				<tr>
+					<td align="left">347</td>
+					<td align="left">SC_BITE</td>
+					<td align="left">发动狼咬</td>
+				</tr>
+				<tr>
+					<td align="left">348</td>
+					<td align="left">SC_CAMOUFLAGE</td>
+					<td align="left">伪装战术</td>
+				</tr>
+				<tr>
+					<td align="left">349</td>
+					<td align="left">SC_ACCELERATION</td>
+					<td align="left">魔导机甲加速</td>
+				</tr>
+				<tr>
+					<td align="left">350</td>
+					<td align="left">SC_HOVERING</td>
+					<td align="left">悬停</td>
+				</tr>
+				<tr>
+					<td align="left">351</td>
+					<td align="left">SC_SHAPESHIFT</td>
+					<td align="left">形态转换</td>
+				</tr>
+				<tr>
+					<td align="left">352</td>
+					<td align="left">SC_INFRARED</td>
+					<td align="left">红外线扫瞄</td>
+				</tr>
+				<tr>
+					<td align="left">353</td>
+					<td align="left">SC_ANALYZE</td>
+					<td align="left">解析</td>
+				</tr>
+				<tr>
+					<td align="left">354</td>
+					<td align="left">SC_MAGNETICFIELD</td>
+					<td align="left">磁场</td>
+				</tr>
+				<tr>
+					<td align="left">355</td>
+					<td align="left">SC_NEUTRALBARRIER</td>
+					<td align="left">中性防护罩</td>
+				</tr>
+				<tr>
+					<td align="left">356</td>
+					<td align="left">SC_NEUTRALBARRIER_MASTER</td>
+					<td align="left">中性防护罩(施展)</td>
+				</tr>
+				<tr>
+					<td align="left">357</td>
+					<td align="left">SC_STEALTHFIELD</td>
+					<td align="left">隐形力场</td>
+				</tr>
+				<tr>
+					<td align="left">358</td>
+					<td align="left">SC_STEALTHFIELD_MASTER</td>
+					<td align="left">隐形力场(施展)</td>
+				</tr>
+				<tr>
+					<td align="left">359</td>
+					<td align="left">SC_OVERHEAT</td>
+					<td align="left">极限过热</td>
+				</tr>
+				<tr>
+					<td align="left">360</td>
+					<td align="left">SC_OVERHEAT_LIMITPOINT</td>
+					<td align="left">极限过热</td>
+				</tr>
+				<tr>
+					<td align="left">361</td>
+					<td align="left">SC_VENOMIMPRESS</td>
+					<td align="left">毒耐性弱化</td>
+				</tr>
+				<tr>
+					<td align="left">362</td>
+					<td align="left">SC_POISONINGWEAPON</td>
+					<td align="left">剧毒武器</td>
+				</tr>
+				<tr>
+					<td align="left">363</td>
+					<td align="left">SC_WEAPONBLOCKING</td>
+					<td align="left">武器抵御</td>
+				</tr>
+				<tr>
+					<td align="left">364</td>
+					<td align="left">SC_CLOAKINGEXCEED</td>
+					<td align="left">伪装强化</td>
+				</tr>
+				<tr>
+					<td align="left">365</td>
+					<td align="left">SC_HALLUCINATIONWALK</td>
+					<td align="left">幻影步</td>
+				</tr>
+				<tr>
+					<td align="left">366</td>
+					<td align="left">SC_HALLUCINATIONWALK_POSTDELAY</td>
+					<td align="left">幻影步延迟</td>
+				</tr>
+				<tr>
+					<td align="left">367</td>
+					<td align="left">SC_ROLLINGCUTTER</td>
+					<td align="left">回旋刀刃</td>
+				</tr>
+				<tr>
+					<td align="left">368</td>
+					<td align="left">SC_TOXIN</td>
+					<td align="left">麻醉之毒</td>
+				</tr>
+				<tr>
+					<td align="left">369</td>
+					<td align="left">SC_PARALYSE</td>
+					<td align="left">麻痹之毒</td>
+				</tr>
+				<tr>
+					<td align="left">370</td>
+					<td align="left">SC_VENOMBLEED</td>
+					<td align="left">衰弱之毒</td>
+				</tr>
+				<tr>
+					<td align="left">371</td>
+					<td align="left">SC_MAGICMUSHROOM</td>
+					<td align="left">狂笑之毒</td>
+				</tr>
+				<tr>
+					<td align="left">372</td>
+					<td align="left">SC_DEATHHURT</td>
+					<td align="left">污染之毒</td>
+				</tr>
+				<tr>
+					<td align="left">373</td>
+					<td align="left">SC_PYREXIA</td>
+					<td align="left">热病之毒</td>
+				</tr>
+				<tr>
+					<td align="left">374</td>
+					<td align="left">SC_OBLIVIONCURSE</td>
+					<td align="left">失忆之毒</td>
+				</tr>
+				<tr>
+					<td align="left">375</td>
+					<td align="left">SC_LEECHESEND</td>
+					<td align="left">吸血之毒</td>
+				</tr>
+				<tr>
+					<td align="left">376</td>
+					<td align="left">SC_REFLECTDAMAGE</td>
+					<td align="left">反射伤害</td>
+				</tr>
+				<tr>
+					<td align="left">377</td>
+					<td align="left">SC_FORCEOFVANGUARD</td>
+					<td align="left">先锋部队</td>
+				</tr>
+				<tr>
+					<td align="left">378</td>
+					<td align="left">SC_SHIELDSPELL_DEF</td>
+					<td align="left">盾咒-防御力</td>
+				</tr>
+				<tr>
+					<td align="left">379</td>
+					<td align="left">SC_SHIELDSPELL_MDEF</td>
+					<td align="left">盾咒-魔法防御力</td>
+				</tr>
+				<tr>
+					<td align="left">380</td>
+					<td align="left">SC_SHIELDSPELL_REF</td>
+					<td align="left">盾咒-精炼效果</td>
+				</tr>
+				<tr>
+					<td align="left">381</td>
+					<td align="left">SC_EXEEDBREAK</td>
+					<td align="left">强化冲击</td>
+				</tr>
+				<tr>
+					<td align="left">382</td>
+					<td align="left">SC_PRESTIGE</td>
+					<td align="left">威信</td>
+				</tr>
+				<tr>
+					<td align="left">383</td>
+					<td align="left">SC_BANDING</td>
+					<td align="left">聚集</td>
+				</tr>
+				<tr>
+					<td align="left">384</td>
+					<td align="left">SC_BANDING_DEFENCE</td>
+					<td align="left">聚集(皇家禁卫队)</td>
+				</tr>
+				<tr>
+					<td align="left">385</td>
+					<td align="left">SC_EARTHDRIVE</td>
+					<td align="left">大地毁灭</td>
+				</tr>
+				<tr>
+					<td align="left">386</td>
+					<td align="left">SC_INSPIRATION</td>
+					<td align="left">灵感</td>
+				</tr>
+				<tr>
+					<td align="left">387</td>
+					<td align="left">SC_SPELLFIST</td>
+					<td align="left">魔力拳</td>
+				</tr>
+				<tr>
+					<td align="left">388</td>
+					<td align="left">SC_CRYSTALIZE</td>
+					<td align="left">钻石星尘</td>
+				</tr>
+				<tr>
+					<td align="left">389</td>
+					<td align="left">SC_STRIKING</td>
+					<td align="left">打击强化</td>
+				</tr>
+				<tr>
+					<td align="left">390</td>
+					<td align="left">SC_WARMER</td>
+					<td align="left">加热器</td>
+				</tr>
+				<tr>
+					<td align="left">391</td>
+					<td align="left">SC_VACUUM_EXTREME</td>
+					<td align="left">极限空虚</td>
+				</tr>
+				<tr>
+					<td align="left">392</td>
+					<td align="left">SC_PROPERTYWALK</td>
+					<td align="left">火焰电流步计算步数</td>
+				</tr>
+				<tr>
+					<td align="left">393</td>
+					<td align="left">SC_SWINGDANCE</td>
+					<td align="left">摇摆舞声唱</td>
+				</tr>
+				<tr>
+					<td align="left">394</td>
+					<td align="left">SC_SYMPHONYOFLOVER</td>
+					<td align="left">爱人的交响曲声唱</td>
+				</tr>
+				<tr>
+					<td align="left">395</td>
+					<td align="left">SC_MOONLITSERENADE</td>
+					<td align="left">月光小夜曲声唱</td>
+				</tr>
+				<tr>
+					<td align="left">396</td>
+					<td align="left">SC_RUSHWINDMILL</td>
+					<td align="left">风车突击</td>
+				</tr>
+				<tr>
+					<td align="left">397</td>
+					<td align="left">SC_ECHOSONG</td>
+					<td align="left">回音之歌</td>
+				</tr>
+				<tr>
+					<td align="left">398</td>
+					<td align="left">SC_HARMONIZE</td>
+					<td align="left">和声演奏</td>
+				</tr>
+				<tr>
+					<td align="left">399</td>
+					<td align="left">SC_VOICEOFSIREN</td>
+					<td align="left">塞壬之音</td>
+				</tr>
+				<tr>
+					<td align="left">400</td>
+					<td align="left">SC_DEEPSLEEP</td>
+					<td align="left">沉睡摇篮曲</td>
+				</tr>
+				<tr>
+					<td align="left">401</td>
+					<td align="left">SC_SIRCLEOFNATURE</td>
+					<td align="left">循环的大自然之音</td>
+				</tr>
+				<tr>
+					<td align="left">402</td>
+					<td align="left">SC_GLOOMYDAY</td>
+					<td align="left">羞怯一天的忧郁</td>
+				</tr>
+				<tr>
+					<td align="left">403</td>
+					<td align="left">SC_GLOOMYDAY_SK</td>
+					<td align="left">会被羞怯一天的忧郁影响的技能判别</td>
+				</tr>
+				<tr>
+					<td align="left">404</td>
+					<td align="left">SC_SONGOFMANA</td>
+					<td align="left">魔力之歌声唱</td>
+				</tr>
+				<tr>
+					<td align="left">405</td>
+					<td align="left">SC_DANCEWITHWUG</td>
+					<td align="left">与狼共舞声唱</td>
+				</tr>
+				<tr>
+					<td align="left">406</td>
+					<td align="left">SC_SATURDAYNIGHTFEVER</td>
+					<td align="left">狂欢周末夜声唱</td>
+				</tr>
+				<tr>
+					<td align="left">407</td>
+					<td align="left">SC_LERADSDEW</td>
+					<td align="left">雷拉多露水声唱</td>
+				</tr>
+				<tr>
+					<td align="left">408</td>
+					<td align="left">SC_MELODYOFSINK</td>
+					<td align="left">消沈旋律</td>
+				</tr>
+				<tr>
+					<td align="left">409</td>
+					<td align="left">SC_BEYONDOFWARCRY</td>
+					<td align="left">战嚎的彼端声唱</td>
+				</tr>
+				<tr>
+					<td align="left">410</td>
+					<td align="left">SC_UNLIMITEDHUMMINGVOICE</td>
+					<td align="left">无限哼唱声旋律</td>
+				</tr>
+				<tr>
+					<td align="left">411</td>
+					<td align="left">SC_SITDOWN_FORCE</td>
+					<td align="left">强制坐下</td>
+				</tr>
+				<tr>
+					<td align="left">412</td>
+					<td align="left">SC_NETHERWORLD</td>
+					<td align="left">绝望之歌</td>
+				</tr>
+				<tr>
+					<td align="left">413</td>
+					<td align="left">SC_CRE</td>
+					<td align="left">破碎柱</td>
+				</tr>
+				<tr>
+					<td align="left">414</td>
+					<td align="left">SC_CURSEDCIRCLE_ATKER</td>
+					<td align="left">咒缚阵_攻击</td>
+				</tr>
+				<tr>
+					<td align="left">415</td>
+					<td align="left">SC_CURSEDCIRCLE_TARGET</td>
+					<td align="left">咒缚阵_目标</td>
+				</tr>
+				<tr>
+					<td align="left">416</td>
+					<td align="left">SC_LIGHTNINGWALK</td>
+					<td align="left">闪电步</td>
+				</tr>
+				<tr>
+					<td align="left">417</td>
+					<td align="left">SC_RAISINGDRAGON</td>
+					<td align="left">潜龙升天</td>
+				</tr>
+				<tr>
+					<td align="left">418</td>
+					<td align="left">SC_GT_ENERGYGAIN</td>
+					<td align="left">点穴-救</td>
+				</tr>
+				<tr>
+					<td align="left">419</td>
+					<td align="left">SC_GT_CHANGE</td>
+					<td align="left">点穴-反</td>
+				</tr>
+				<tr>
+					<td align="left">420</td>
+					<td align="left">SC_GT_REVITALIZE</td>
+					<td align="left">点穴-活</td>
+				</tr>
+				<tr>
+					<td align="left">421</td>
+					<td align="left">SC_GN_CARTBOOST</td>
+					<td align="left">手推车加速</td>
+				</tr>
+				<tr>
+					<td align="left">422</td>
+					<td align="left">SC_THORNSTRAP</td>
+					<td align="left">荆棘陷阱</td>
+				</tr>
+				<tr>
+					<td align="left">423</td>
+					<td align="left">SC_BLOODSUCKER</td>
+					<td align="left">吸血植物</td>
+				</tr>
+				<tr>
+					<td align="left">424</td>
+					<td align="left">SC_SMOKEPOWDER</td>
+					<td align="left">火焰扩散(烟幕弹)</td>
+				</tr>
+				<tr>
+					<td align="left">425</td>
+					<td align="left">SC_TEARGAS</td>
+					<td align="left">火焰扩散(催泪瓦斯)</td>
+				</tr>
+				<tr>
+					<td align="left">426</td>
+					<td align="left">SC_MANDRAGORA</td>
+					<td align="left">曼陀罗魔花的尖叫</td>
+				</tr>
+				<tr>
+					<td align="left">427</td>
+					<td align="left">SC_STOMACHACHE</td>
+					<td align="left">腹痛</td>
+				</tr>
+				<tr>
+					<td align="left">428</td>
+					<td align="left">SC_MYSTERIOUS_POWDER</td>
+					<td align="left">神秘能量</td>
+				</tr>
+				<tr>
+					<td align="left">429</td>
+					<td align="left">SC_MELON_BOMB</td>
+					<td align="left">哈密瓜炸弹</td>
+				</tr>
+				<tr>
+					<td align="left">430</td>
+					<td align="left">SC_BANANA_BOMB</td>
+					<td align="left">香蕉炸弹</td>
+				</tr>
+				<tr>
+					<td align="left">431</td>
+					<td align="left">SC_BANANA_BOMB_SITDOWN</td>
+					<td align="left">香蕉炸弹坐下效果</td>
+				</tr>
+				<tr>
+					<td align="left">432</td>
+					<td align="left">SC_SAVAGE_STEAK</td>
+					<td align="left">烤小野猪排</td>
+				</tr>
+				<tr>
+					<td align="left">433</td>
+					<td align="left">SC_COCKTAIL_WARG_BLOOD</td>
+					<td align="left">鸡尾酒狼血</td>
+				</tr>
+				<tr>
+					<td align="left">434</td>
+					<td align="left">SC_MINOR_BBQ</td>
+					<td align="left">米洛斯烧烤</td>
+				</tr>
+				<tr>
+					<td align="left">435</td>
+					<td align="left">SC_SIROMA_ICE_TEA</td>
+					<td align="left">小雪兽冰茶</td>
+				</tr>
+				<tr>
+					<td align="left">436</td>
+					<td align="left">SC_DROCERA_HERB_STEAMED</td>
+					<td align="left">捕虫草药草煎</td>
+				</tr>
+				<tr>
+					<td align="left">437</td>
+					<td align="left">SC_PUTTI_TAILS_NOODLES</td>
+					<td align="left">毕帝特龙尾面</td>
+				</tr>
+				<tr>
+					<td align="left">438</td>
+					<td align="left">SC_BOOST500</td>
+					<td align="left">攻速倍增%数药</td>
+				</tr>
+				<tr>
+					<td align="left">439</td>
+					<td align="left">SC_FULL_SWING_K</td>
+					<td align="left">基础攻击力增加</td>
+				</tr>
+				<tr>
+					<td align="left">440</td>
+					<td align="left">SC_MANA_PLUS</td>
+					<td align="left">魔力增加(提高魔法攻击力)</td>
+				</tr>
+				<tr>
+					<td align="left">441</td>
+					<td align="left">SC_MUSTLE_M</td>
+					<td align="left">最大hp倍率增加</td>
+				</tr>
+				<tr>
+					<td align="left">442</td>
+					<td align="left">SC_LIFE_FORCE_F</td>
+					<td align="left">最大sp倍率提升</td>
+				</tr>
+				<tr>
+					<td align="left">443</td>
+					<td align="left">SC_EXTRACT_WHITE_POTION_Z</td>
+					<td align="left">HP和HP 自然恢复速度增加</td>
+				</tr>
+				<tr>
+					<td align="left">444</td>
+					<td align="left">SC_VITATA_500</td>
+					<td align="left">投掷药水SP提升5%、SP自然恢复速度增加20%</td>
+				</tr>
+				<tr>
+					<td align="left">445</td>
+					<td align="left">SC_EXTRACT_SALAMINE_JUICE</td>
+					<td align="left">攻速增加浓缩汁</td>
+				</tr>
+				<tr>
+					<td align="left">446</td>
+					<td align="left">SC_REPRODUCE</td>
+					<td align="left">繁殖</td>
+				</tr>
+				<tr>
+					<td align="left">447</td>
+					<td align="left">SC_AUTOSHADOWSPELL</td>
+					<td align="left">自动魅影念咒</td>
+				</tr>
+				<tr>
+					<td align="left">448</td>
+					<td align="left">SC_SHADOWFORM</td>
+					<td align="left">魅影形态</td>
+				</tr>
+				<tr>
+					<td align="left">449</td>
+					<td align="left">SC_BODYPAINT</td>
+					<td align="left">人体彩绘</td>
+				</tr>
+				<tr>
+					<td align="left">450</td>
+					<td align="left">SC_INVISIBILITY</td>
+					<td align="left">透明术</td>
+				</tr>
+				<tr>
+					<td align="left">451</td>
+					<td align="left">SC_DEADLYINFECT</td>
+					<td align="left">致命感染</td>
+				</tr>
+				<tr>
+					<td align="left">452</td>
+					<td align="left">SC_ENERVATION</td>
+					<td align="left">面具-无力</td>
+				</tr>
+				<tr>
+					<td align="left">453</td>
+					<td align="left">SC_GROOMY</td>
+					<td align="left">面具-忧郁</td>
+				</tr>
+				<tr>
+					<td align="left">454</td>
+					<td align="left">SC_IGNORANCE</td>
+					<td align="left">面具-无知</td>
+				</tr>
+				<tr>
+					<td align="left">455</td>
+					<td align="left">SC_LAZINESS</td>
+					<td align="left">面具-懒散</td>
+				</tr>
+				<tr>
+					<td align="left">456</td>
+					<td align="left">SC_UNLUCKY</td>
+					<td align="left">面具-不幸</td>
+				</tr>
+				<tr>
+					<td align="left">457</td>
+					<td align="left">SC_WEAKNESS</td>
+					<td align="left">面具-衰弱</td>
+				</tr>
+				<tr>
+					<td align="left">458</td>
+					<td align="left">SC_STRIPACCESSORY</td>
+					<td align="left">卸除配件</td>
+				</tr>
+				<tr>
+					<td align="left">459</td>
+					<td align="left">SC_MANHOLE</td>
+					<td align="left">人孔</td>
+				</tr>
+				<tr>
+					<td align="left">460</td>
+					<td align="left">SC_BLOODYLUST</td>
+					<td align="left">血腥欲望</td>
+				</tr>
+				<tr>
+					<td align="left">461</td>
+					<td align="left">SC_CIRCLE_OF_FIRE</td>
+					<td align="left">烈焰之环</td>
+				</tr>
+				<tr>
+					<td align="left">462</td>
+					<td align="left">SC_CIRCLE_OF_FIRE_OPTION</td>
+					<td align="left">烈焰之环状攻击伤害态</td>
+				</tr>
+				<tr>
+					<td align="left">463</td>
+					<td align="left">SC_FIRE_CLOAK</td>
+					<td align="left">急速降温</td>
+				</tr>
+				<tr>
+					<td align="left">464</td>
+					<td align="left">SC_FIRE_CLOAK_OPTION</td>
+					<td align="left">急速降温</td>
+				</tr>
+				<tr>
+					<td align="left">465</td>
+					<td align="left">SC_WATER_SCREEN</td>
+					<td align="left">水之守护</td>
+				</tr>
+				<tr>
+					<td align="left">466</td>
+					<td align="left">SC_WATER_SCREEN_OPTION</td>
+					<td align="left">水之守护</td>
+				</tr>
+				<tr>
+					<td align="left">467</td>
+					<td align="left">SC_WATER_DROP</td>
+					<td align="left">大豪雨</td>
+				</tr>
+				<tr>
+					<td align="left">468</td>
+					<td align="left">SC_WATER_DROP_OPTION</td>
+					<td align="left">大豪雨</td>
+				</tr>
+				<tr>
+					<td align="left">469</td>
+					<td align="left">SC_WATER_BARRIER</td>
+					<td align="left">水之屏障</td>
+				</tr>
+				<tr>
+					<td align="left">470</td>
+					<td align="left">SC_WIND_STEP</td>
+					<td align="left">风之闪现</td>
+				</tr>
+				<tr>
+					<td align="left">471</td>
+					<td align="left">SC_WIND_STEP_OPTION</td>
+					<td align="left">风之闪现</td>
+				</tr>
+				<tr>
+					<td align="left">472</td>
+					<td align="left">SC_WIND_CURTAIN</td>
+					<td align="left">风之魂</td>
+				</tr>
+				<tr>
+					<td align="left">473</td>
+					<td align="left">SC_WIND_CURTAIN_OPTION</td>
+					<td align="left">风之魂</td>
+				</tr>
+				<tr>
+					<td align="left">474</td>
+					<td align="left">SC_ZEPHYR</td>
+					<td align="left">风之结界</td>
+				</tr>
+				<tr>
+					<td align="left">475</td>
+					<td align="left">SC_SOLID_SKIN</td>
+					<td align="left">皮肤固化</td>
+				</tr>
+				<tr>
+					<td align="left">476</td>
+					<td align="left">SC_SOLID_SKIN_OPTION</td>
+					<td align="left">皮肤固化</td>
+				</tr>
+				<tr>
+					<td align="left">477</td>
+					<td align="left">SC_STONE_SHIELD</td>
+					<td align="left">岩石盾</td>
+				</tr>
+				<tr>
+					<td align="left">478</td>
+					<td align="left">SC_STONE_SHIELD_OPTION</td>
+					<td align="left">岩石盾</td>
+				</tr>
+				<tr>
+					<td align="left">479</td>
+					<td align="left">SC_POWER_OF_GAIA</td>
+					<td align="left">天神下凡</td>
+				</tr>
+				<tr>
+					<td align="left">480</td>
+					<td align="left">SC_PYROTECHNIC</td>
+					<td align="left">烈焰强化</td>
+				</tr>
+				<tr>
+					<td align="left">481</td>
+					<td align="left">SC_PYROTECHNIC_OPTION</td>
+					<td align="left">烈焰强化</td>
+				</tr>
+				<tr>
+					<td align="left">482</td>
+					<td align="left">SC_HEATER</td>
+					<td align="left">急速升温</td>
+				</tr>
+				<tr>
+					<td align="left">483</td>
+					<td align="left">SC_HEATER_OPTION</td>
+					<td align="left">急速升温</td>
+				</tr>
+				<tr>
+					<td align="left">484</td>
+					<td align="left">SC_TROPIC</td>
+					<td align="left">灼热地带</td>
+				</tr>
+				<tr>
+					<td align="left">485</td>
+					<td align="left">SC_TROPIC_OPTION</td>
+					<td align="left">灼热地带</td>
+				</tr>
+				<tr>
+					<td align="left">486</td>
+					<td align="left">SC_AQUAPLAY</td>
+					<td align="left">冰封领域</td>
+				</tr>
+				<tr>
+					<td align="left">487</td>
+					<td align="left">SC_AQUAPLAY_OPTION</td>
+					<td align="left">冰封领域</td>
+				</tr>
+				<tr>
+					<td align="left">488</td>
+					<td align="left">SC_COOLER</td>
+					<td align="left">急速降温</td>
+				</tr>
+				<tr>
+					<td align="left">489</td>
+					<td align="left">SC_COOLER_OPTION</td>
+					<td align="left">急速降温</td>
+				</tr>
+				<tr>
+					<td align="left">490</td>
+					<td align="left">SC_CHILLY_AIR</td>
+					<td align="left">绝对零度</td>
+				</tr>
+				<tr>
+					<td align="left">491</td>
+					<td align="left">SC_CHILLY_AIR_OPTION</td>
+					<td align="left">绝对零度</td>
+				</tr>
+				<tr>
+					<td align="left">492</td>
+					<td align="left">SC_GUST</td>
+					<td align="left">雷电强化</td>
+				</tr>
+				<tr>
+					<td align="left">493</td>
+					<td align="left">SC_GUST_OPTION</td>
+					<td align="left">雷电强化</td>
+				</tr>
+				<tr>
+					<td align="left">494</td>
+					<td align="left">SC_BLAST</td>
+					<td align="left">风暴冲击</td>
+				</tr>
+				<tr>
+					<td align="left">495</td>
+					<td align="left">SC_BLAST_OPTION</td>
+					<td align="left">风暴冲击</td>
+				</tr>
+				<tr>
+					<td align="left">496</td>
+					<td align="left">SC_WILD_STORM</td>
+					<td align="left">荒野风暴</td>
+				</tr>
+				<tr>
+					<td align="left">497</td>
+					<td align="left">SC_WILD_STORM_OPTION</td>
+					<td align="left">荒野风暴</td>
+				</tr>
+				<tr>
+					<td align="left">498</td>
+					<td align="left">SC_PETROLOGY</td>
+					<td align="left">岩石领域</td>
+				</tr>
+				<tr>
+					<td align="left">499</td>
+					<td align="left">SC_PETROLOGY_OPTION</td>
+					<td align="left">岩石领域</td>
+				</tr>
+				<tr>
+					<td align="left">500</td>
+					<td align="left">SC_CURSED_SOIL</td>
+					<td align="left">诅咒之地</td>
+				</tr>
+				<tr>
+					<td align="left">501</td>
+					<td align="left">SC_CURSED_SOIL_OPTION</td>
+					<td align="left">诅咒之地</td>
+				</tr>
+				<tr>
+					<td align="left">502</td>
+					<td align="left">SC_UPHEAVAL</td>
+					<td align="left">天崩地裂</td>
+				</tr>
+				<tr>
+					<td align="left">503</td>
+					<td align="left">SC_UPHEAVAL_OPTION</td>
+					<td align="left">天崩地裂</td>
+				</tr>
+				<tr>
+					<td align="left">504</td>
+					<td align="left">SC_TIDAL_WEAPON</td>
+					<td align="left">海啸武器</td>
+				</tr>
+				<tr>
+					<td align="left">505</td>
+					<td align="left">SC_TIDAL_WEAPON_OPTION</td>
+					<td align="left">海啸武器</td>
+				</tr>
+				<tr>
+					<td align="left">506</td>
+					<td align="left">SC_ROCK_CRUSHER</td>
+					<td align="left">碎石</td>
+				</tr>
+				<tr>
+					<td align="left">507</td>
+					<td align="left">SC_ROCK_CRUSHER_ATK</td>
+					<td align="left">碎石~</td>
+				</tr>
+				<tr>
+					<td align="left">508</td>
+					<td align="left">SC_LEADERSHIP</td>
+					<td align="left">伟大的指导力</td>
+				</tr>
+				<tr>
+					<td align="left">509</td>
+					<td align="left">SC_GLORYWOUNDS</td>
+					<td align="left">光荣的伤口</td>
+				</tr>
+				<tr>
+					<td align="left">510</td>
+					<td align="left">SC_SOULCOLD</td>
+					<td align="left">冷漠之心</td>
+				</tr>
+				<tr>
+					<td align="left">511</td>
+					<td align="left">SC_HAWKEYES</td>
+					<td align="left">尖锐的视线</td>
+				</tr>
+				<tr>
+					<td align="left">512</td>
+					<td align="left">SC_ODINS_POWER</td>
+					<td align="left">奥丁能量</td>
+				</tr>
+				<tr>
+					<td align="left">513</td>
+					<td align="left">SC_RAID</td>
+					<td align="left">潜击</td>
+				</tr>
+				<tr>
+					<td align="left">514</td>
+					<td align="left">SC_FIRE_INSIGNIA</td>
+					<td align="left">火之纹章</td>
+				</tr>
+				<tr>
+					<td align="left">515</td>
+					<td align="left">SC_WATER_INSIGNIA</td>
+					<td align="left">水之纹章</td>
+				</tr>
+				<tr>
+					<td align="left">516</td>
+					<td align="left">SC_WIND_INSIGNIA</td>
+					<td align="left">地之纹章</td>
+				</tr>
+				<tr>
+					<td align="left">517</td>
+					<td align="left">SC_EARTH_INSIGNIA</td>
+					<td align="left">风之纹章</td>
+				</tr>
+				<tr>
+					<td align="left">518</td>
+					<td align="left">SC_PUSH_CART</td>
+					<td align="left">手推车状备</td>
+				</tr>
+				<tr>
+					<td align="left">519</td>
+					<td align="left">SC_SPELLBOOK1</td>
+					<td align="left">第一魔法书</td>
+				</tr>
+				<tr>
+					<td align="left">520</td>
+					<td align="left">SC_SPELLBOOK2</td>
+					<td align="left">第二魔法书</td>
+				</tr>
+				<tr>
+					<td align="left">521</td>
+					<td align="left">SC_SPELLBOOK3</td>
+					<td align="left">第三魔法书</td>
+				</tr>
+				<tr>
+					<td align="left">522</td>
+					<td align="left">SC_SPELLBOOK4</td>
+					<td align="left">第四魔法书</td>
+				</tr>
+				<tr>
+					<td align="left">523</td>
+					<td align="left">SC_SPELLBOOK5</td>
+					<td align="left">第五魔法书</td>
+				</tr>
+				<tr>
+					<td align="left">524</td>
+					<td align="left">SC_SPELLBOOK6</td>
+					<td align="left">第六魔法书</td>
+				</tr>
+				<tr>
+					<td align="left">525</td>
+					<td align="left">SC_MAXSPELLBOOK</td>
+					<td align="left">技能咏唱魔法书最大数量</td>
+				</tr>
+				<tr>
+					<td align="left">526</td>
+					<td align="left">SC_INCMHP</td>
+					<td align="left">HP增加药水</td>
+				</tr>
+				<tr>
+					<td align="left">527</td>
+					<td align="left">SC_INCMSP</td>
+					<td align="left">SP增加药水</td>
+				</tr>
+				<tr>
+					<td align="left">528</td>
+					<td align="left">SC_PARTYFLEE</td>
+					<td align="left">回避率增加</td>
+				</tr>
+				<tr>
+					<td align="left">529</td>
+					<td align="left">SC_MEIKYOUSISUI</td>
+					<td align="left">明镜止水</td>
+				</tr>
+				<tr>
+					<td align="left">530</td>
+					<td align="left">SC_JYUMONJIKIRI</td>
+					<td align="left">幽冥十字斩</td>
+				</tr>
+				<tr>
+					<td align="left">531</td>
+					<td align="left">SC_KYOUGAKU</td>
+					<td align="left">幻术–惊恐</td>
+				</tr>
+				<tr>
+					<td align="left">532</td>
+					<td align="left">SC_IZAYOI</td>
+					<td align="left">第十六个夜晚</td>
+				</tr>
+				<tr>
+					<td align="left">533</td>
+					<td align="left">SC_ZENKAI</td>
+					<td align="left">法术–施展</td>
+				</tr>
+				<tr>
+					<td align="left">534</td>
+					<td align="left">SC_KAGEHUMI</td>
+					<td align="left">踏影</td>
+				</tr>
+				<tr>
+					<td align="left">535</td>
+					<td align="left">SC_KYOMU</td>
+					<td align="left">虚无飘妙之影</td>
+				</tr>
+				<tr>
+					<td align="left">536</td>
+					<td align="left">SC_KAGEMUSYA</td>
+					<td align="left">影子武士</td>
+				</tr>
+				<tr>
+					<td align="left">537</td>
+					<td align="left">SC_ZANGETSU</td>
+					<td align="left">变形的上弦月</td>
+				</tr>
+				<tr>
+					<td align="left">538</td>
+					<td align="left">SC_GENSOU</td>
+					<td align="left">阴月的幻影</td>
+				</tr>
+				<tr>
+					<td align="left">539</td>
+					<td align="left">SC_AKAITSUKI</td>
+					<td align="left">不祥的红月</td>
+				</tr>
+				<tr>
+					<td align="left">540</td>
+					<td align="left">SC_STYLE_CHANGE</td>
+					<td align="left">人工生命体s转换型态</td>
+				</tr>
+				<tr>
+					<td align="left">541</td>
+					<td align="left">SC_TINDER_BREAKER</td>
+					<td align="left">人工生命体s粉碎骨折</td>
+				</tr>
+				<tr>
+					<td align="left">542</td>
+					<td align="left">SC_TINDER_BREAKER2</td>
+					<td align="left"></td>
+				</tr>
+				<tr>
+					<td align="left">543</td>
+					<td align="left">SC_CBC</td>
+					<td align="left">生命体s连续突破组合</td>
+				</tr>
+				<tr>
+					<td align="left">544</td>
+					<td align="left">SC_EQC</td>
+					<td align="left">生命体s永恒快速组合</td>
+				</tr>
+				<tr>
+					<td align="left">545</td>
+					<td align="left">SC_GOLDENE_FERSE</td>
+					<td align="left">生命体s黄金脚跟</td>
+				</tr>
+				<tr>
+					<td align="left">546</td>
+					<td align="left">SC_ANGRIFFS_MODUS</td>
+					<td align="left">生命体s攻击准备</td>
+				</tr>
+				<tr>
+					<td align="left">547</td>
+					<td align="left">SC_OVERED_BOOST</td>
+					<td align="left">生命体s瞬间增压</td>
+				</tr>
+				<tr>
+					<td align="left">548</td>
+					<td align="left">SC_LIGHT_OF_REGENE</td>
+					<td align="left">生命体s重生之光</td>
+				</tr>
+				<tr>
+					<td align="left">549</td>
+					<td align="left">SC_ASH</td>
+					<td align="left">生命体s火山灰</td>
+				</tr>
+				<tr>
+					<td align="left">550</td>
+					<td align="left">SC_GRANITIC_ARMOR</td>
+					<td align="left">生命体s花岗岩铠甲</td>
+				</tr>
+				<tr>
+					<td align="left">551</td>
+					<td align="left">SC_MAGMA_FLOW</td>
+					<td align="left">生命体s岩浆流动</td>
+				</tr>
+				<tr>
+					<td align="left">552</td>
+					<td align="left">SC_PYROCLASTIC</td>
+					<td align="left">生命体s火山尘暴</td>
+				</tr>
+				<tr>
+					<td align="left">553</td>
+					<td align="left">SC_PARALYSIS</td>
+					<td align="left">生命体s麻痹针</td>
+				</tr>
+				<tr>
+					<td align="left">554</td>
+					<td align="left">SC_PAIN_KILLER</td>
+					<td align="left">生命体s镇痛剂</td>
+				</tr>
+				<tr>
+					<td align="left">555</td>
+					<td align="left">SC_HANBOK</td>
+					<td align="left">韩服外观</td>
+				</tr>
+				<tr>
+					<td align="left">556</td>
+					<td align="left">SC_DEFSET</td>
+					<td align="left">指定防御力</td>
+				</tr>
+				<tr>
+					<td align="left">557</td>
+					<td align="left">SC_MDEFSET</td>
+					<td align="left">指定魔法防御力</td>
+				</tr>
+				<tr>
+					<td align="left">558</td>
+					<td align="left">SC_DARKCROW</td>
+					<td align="left">致命爪痕</td>
+				</tr>
+				<tr>
+					<td align="left">559</td>
+					<td align="left">SC_FULL_THROTTLE</td>
+					<td align="left">烈火战车</td>
+				</tr>
+				<tr>
+					<td align="left">560</td>
+					<td align="left">SC_REBOUND</td>
+					<td align="left">hp和sp不自然恢复</td>
+				</tr>
+				<tr>
+					<td align="left">561</td>
+					<td align="left">SC_UNLIMIT</td>
+					<td align="left">无限哼唱声</td>
+				</tr>
+				<tr>
+					<td align="left">562</td>
+					<td align="left">SC_KINGS_GRACE</td>
+					<td align="left">王的恩典</td>
+				</tr>
+				<tr>
+					<td align="left">563</td>
+					<td align="left">SC_TELEKINESIS_INTENSE</td>
+					<td align="left">终极念力</td>
+				</tr>
+				<tr>
+					<td align="left">564</td>
+					<td align="left">SC_OFFERTORIUM</td>
+					<td align="left">奉献颂</td>
+				</tr>
+				<tr>
+					<td align="left">565</td>
+					<td align="left">SC_FRIGG_SONG</td>
+					<td align="left">丰年颂唱声</td>
+				</tr>
+				<tr>
+					<td align="left">566</td>
+					<td align="left">SC_MONSTER_TRANSFORM</td>
+					<td align="left">变身怪物</td>
+				</tr>
+				<tr>
+					<td align="left">567</td>
+					<td align="left">SC_ANGEL_PROTECT</td>
+					<td align="left">感谢您!技能</td>
+				</tr>
+				<tr>
+					<td align="left">568</td>
+					<td align="left">SC_ILLUSIONDOPING</td>
+					<td align="left">幻觉禁药</td>
+				</tr>
+				<tr>
+					<td align="left">569</td>
+					<td align="left">SC_FLASHCOMBO</td>
+					<td align="left">闪光连击</td>
+				</tr>
+				<tr>
+					<td align="left">570</td>
+					<td align="left">SC_MOONSTAR</td>
+					<td align="left">时装月亮与星星的外观</td>
+				</tr>
+				<tr>
+					<td align="left">571</td>
+					<td align="left">SC_SUPER_STAR</td>
+					<td align="left">时装超级明星的外观</td>
+				</tr>
+				<tr>
+					<td align="left">572</td>
+					<td align="left">SC_HEAT_BARREL</td>
+					<td align="left">加速子弹</td>
+				</tr>
+				<tr>
+					<td align="left">573</td>
+					<td align="left">SC_HEAT_BARREL_AFTER</td>
+					<td align="left">加速子弹下不能使用消秏品的</td>
+				</tr>
+				<tr>
+					<td align="left">574</td>
+					<td align="left">SC_P_ALTER</td>
+					<td align="left">白金祭坛</td>
+				</tr>
+				<tr>
+					<td align="left">575</td>
+					<td align="left">SC_E_CHAIN</td>
+					<td align="left">无限连锁</td>
+				</tr>
+				<tr>
+					<td align="left">576</td>
+					<td align="left">SC_C_MARKER</td>
+					<td align="left">血色烙印</td>
+				</tr>
+				<tr>
+					<td align="left">577</td>
+					<td align="left">SC_ANTI_M_BLAST</td>
+					<td align="left">毁灭之击</td>
+				</tr>
+				<tr>
+					<td align="left">578</td>
+					<td align="left">SC_B_TRAP</td>
+					<td align="left">黑暗地狱</td>
+				</tr>
+				<tr>
+					<td align="left">579</td>
+					<td align="left">SC_H_MINE</td>
+					<td align="left">破坏怒吼</td>
+				</tr>
+				<tr>
+					<td align="left">580</td>
+					<td align="left">SC_QD_SHOT_READY</td>
+					<td align="left">瞬速子弹完成准备</td>
+				</tr>
+				<tr>
+					<td align="left">581</td>
+					<td align="left">SC_MTF_ASPD</td>
+					<td align="left">变身魔物攻速提升</td>
+				</tr>
+				<tr>
+					<td align="left">582</td>
+					<td align="left">SC_MTF_RANGEATK</td>
+					<td align="left">变身魔物远距离攻击力提升百分比</td>
+				</tr>
+				<tr>
+					<td align="left">583</td>
+					<td align="left">SC_MTF_MATK</td>
+					<td align="left">变身魔物魔法攻击力提升百分比</td>
+				</tr>
+				<tr>
+					<td align="left">584</td>
+					<td align="left">SC_MTF_MLEATKED</td>
+					<td align="left">变身魔物无属性耐性提升倍率</td>
+				</tr>
+				<tr>
+					<td align="left">585</td>
+					<td align="left">SC_MTF_CRIDAMAGE</td>
+					<td align="left">变身魔物爆击伤害提升倍率</td>
+				</tr>
+				<tr>
+					<td align="left">586</td>
+					<td align="left">SC_OKTOBERFEST</td>
+					<td align="left">啤酒服务生时装外观</td>
+				</tr>
+				<tr>
+					<td align="left">587</td>
+					<td align="left">SC_STRANGELIGHTS</td>
+					<td align="left">时装鬼火的装饰的外观</td>
+				</tr>
+				<tr>
+					<td align="left">588</td>
+					<td align="left">SC_DECORATION_OF_MUSIC</td>
+					<td align="left">时装音乐的装饰的外观</td>
+				</tr>
+				<tr>
+					<td align="left">589</td>
+					<td align="left">SC_QUEST_BUFF1</td>
+					<td align="left">任务辅助效果1</td>
+				</tr>
+				<tr>
+					<td align="left">590</td>
+					<td align="left">SC_QUEST_BUFF2</td>
+					<td align="left">任务辅助效果2</td>
+				</tr>
+				<tr>
+					<td align="left">591</td>
+					<td align="left">SC_QUEST_BUFF3</td>
+					<td align="left">任务辅助效果3</td>
+				</tr>
+				<tr>
+					<td align="left">592</td>
+					<td align="left">SC_ALL_RIDING</td>
+					<td align="left">坐骑搭乘中</td>
+				</tr>
+				<tr>
+					<td align="left">593</td>
+					<td align="left">SC_TEARGAS_SOB</td>
+					<td align="left">命中火焰扩散(催泪瓦斯)的表情</td>
+				</tr>
+				<tr>
+					<td align="left">594</td>
+					<td align="left">SC_FEINTBOMB</td>
+					<td align="left">虚击炸弹</td>
+				</tr>
+				<tr>
+					<td align="left">595</td>
+					<td align="left">SC__CHAOS</td>
+					<td align="left">尚末使用</td>
+				</tr>
+				<tr>
+					<td align="left">596</td>
+					<td align="left">SC_CHASEWALK2</td>
+					<td align="left">STR增加</td>
+				</tr>
+				<tr>
+					<td align="left">597</td>
+					<td align="left">SC_VACUUM_EXTREME_POSTDELAY</td>
+					<td align="left"></td>
+				</tr>
+				<tr>
+					<td align="left">598</td>
+					<td align="left">SC_MTF_ASPD2</td>
+					<td align="left">变身魔物攻速提升</td>
+				</tr>
+				<tr>
+					<td align="left">599</td>
+					<td align="left">SC_MTF_RANGEATK2</td>
+					<td align="left">变身魔物远距离攻击力提升倍率</td>
+				</tr>
+				<tr>
+					<td align="left">600</td>
+					<td align="left">SC_MTF_MATK2</td>
+					<td align="left">变身魔物魔法攻击力提升</td>
+				</tr>
+				<tr>
+					<td align="left">601</td>
+					<td align="left">SC_2011RWC_</td>
+					<td align="left">红色助推器</td>
+				</tr>
+				<tr>
+					<td align="left">602</td>
+					<td align="left">SC_JP_EVENT04</td>
+					<td align="left">鱼贝类怪物所获经验值增加</td>
+				</tr>
+				<tr>
+					<td align="left">603</td>
+					<td align="left">SC_MTF_MHP</td>
+					<td align="left">变身魔物最大hp增加</td>
+				</tr>
+				<tr>
+					<td align="left">604</td>
+					<td align="left">SC_MTF_MSP</td>
+					<td align="left">恋身魔物最大sp增加</td>
+				</tr>
+				<tr>
+					<td align="left">605</td>
+					<td align="left">SC_MTF_PUMPKIN</td>
+					<td align="left">变身魔物使用hp恢复道具恢复量提升</td>
+				</tr>
+				<tr>
+					<td align="left">606</td>
+					<td align="left">SC_MTF_HITFLEE</td>
+					<td align="left">恋身魔物命中率和回避率提升</td>
+				</tr>
+				<tr>
+					<td align="left">607</td>
+					<td align="left">SC_CRIFOOD</td>
+					<td align="left">爆击率提升</td>
+				</tr>
+				<tr>
+					<td align="left">608</td>
+					<td align="left">SC_ATTHASTE_CASH</td>
+					<td align="left">ASPD强化药水</td>
+				</tr>
+				<tr>
+					<td align="left">609</td>
+					<td align="left">SC_REUSE_LIMIT_A</td>
+					<td align="left">A类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">610</td>
+					<td align="left">SC_REUSE_LIMIT_B</td>
+					<td align="left">B类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">611</td>
+					<td align="left">SC_REUSE_LIMIT_C</td>
+					<td align="left">C类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">612</td>
+					<td align="left">SC_REUSE_LIMIT_D</td>
+					<td align="left">D类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">613</td>
+					<td align="left">SC_REUSE_LIMIT_E</td>
+					<td align="left">E类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">614</td>
+					<td align="left">SC_REUSE_LIMIT_F</td>
+					<td align="left">F类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">615</td>
+					<td align="left">SC_REUSE_LIMIT_G</td>
+					<td align="left">G类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">616</td>
+					<td align="left">SC_REUSE_LIMIT_H</td>
+					<td align="left">H类物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">617</td>
+					<td align="left">SC_REUSE_LIMIT_MTF</td>
+					<td align="left">变身卷轴物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">618</td>
+					<td align="left">SC_REUSE_LIMIT_ASPD_POTION</td>
+					<td align="left">攻速药水冷却</td>
+				</tr>
+				<tr>
+					<td align="left">619</td>
+					<td align="left">SC_REUSE_MILLENNIUMSHIELD</td>
+					<td align="left">千年神盾冷却</td>
+				</tr>
+				<tr>
+					<td align="left">620</td>
+					<td align="left">SC_REUSE_CRUSHSTRIKE</td>
+					<td align="left">重击强袭冷却</td>
+				</tr>
+				<tr>
+					<td align="left">621</td>
+					<td align="left">SC_REUSE_STORMBLAST</td>
+					<td align="left">风暴冲击冷却</td>
+				</tr>
+				<tr>
+					<td align="left">622</td>
+					<td align="left">SC_ALL_RIDING_REUSE_LIMIT</td>
+					<td align="left">坐骑物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">623</td>
+					<td align="left">SC_REUSE_LIMIT_ECL</td>
+					<td align="left">一般物品冷却</td>
+				</tr>
+				<tr>
+					<td align="left">624</td>
+					<td align="left">SC_REUSE_LIMIT_RECALL</td>
+					<td align="left">招换卷轴冷却</td>
+				</tr>
+				<tr>
+					<td align="left">625</td>
+					<td align="left">SC_PROMOTE_HEALTH_RESERCH</td>
+					<td align="left">HP增加药水(大)</td>
+				</tr>
+				<tr>
+					<td align="left">626</td>
+					<td align="left">SC_ENERGY_DRINK_RESERCH</td>
+					<td align="left">MSP上升</td>
+				</tr>
+				<tr>
+					<td align="left">627</td>
+					<td align="left">SC_NORECOVER_STATE</td>
+					<td align="left">吃补无法恢复</td>
+				</tr>
+				<tr>
+					<td align="left">628</td>
+					<td align="left">SC_SUHIDE</td>
+					<td align="left">禁止行动( 不能走动使用技能使用物品)</td>
+				</tr>
+				<tr>
+					<td align="left">629</td>
+					<td align="left">SC_SU_STOOP</td>
+					<td align="left">猫背技能</td>
+				</tr>
+				<tr>
+					<td align="left">630</td>
+					<td align="left">SC_SPRITEMABLE</td>
+					<td align="left">灵魂之珠技能</td>
+				</tr>
+				<tr>
+					<td align="left">631</td>
+					<td align="left">SC_CATNIPPOWDER</td>
+					<td align="left">木天蓼撒粉技能</td>
+				</tr>
+				<tr>
+					<td align="left">632</td>
+					<td align="left">SC_SV_ROOTTWIST</td>
+					<td align="left">狝猴桃根须缠绕技能</td>
+				</tr>
+				<tr>
+					<td align="left">633</td>
+					<td align="left">SC_BITESCAR</td>
+					<td align="left">狼咬伤</td>
+				</tr>
+				<tr>
+					<td align="left">634</td>
+					<td align="left">SC_ARCLOUSEDASH</td>
+					<td align="left">卷甲虫冲刺技能</td>
+				</tr>
+				<tr>
+					<td align="left">635</td>
+					<td align="left">SC_TUNAPARTY</td>
+					<td align="left">金枪鱼派对技能</td>
+				</tr>
+				<tr>
+					<td align="left">636</td>
+					<td align="left">SC_SHRIMP</td>
+					<td align="left">虾群技能(基本攻击力魔法攻击力提升百分比)</td>
+				</tr>
+				<tr>
+					<td align="left">637</td>
+					<td align="left">SC_FRESHSHRIMP</td>
+					<td align="left">鲜虾技能</td>
+				</tr>
+				<tr>
+					<td align="left">638</td>
+					<td align="left">SC_ACTIVE_MONSTER_TRANSFORM</td>
+					<td align="left">变身怪物</td>
+				</tr>
+				<tr>
+					<td align="left">639</td>
+					<td align="left">SC_CLOUD_KILL</td>
+					<td align="left">云杀</td>
+				</tr>
+				<tr>
+					<td align="left">640</td>
+					<td align="left">SC_LJOSALFAR</td>
+					<td align="left">时装光精灵发夹的外观</td>
+				</tr>
+				<tr>
+					<td align="left">641</td>
+					<td align="left">SC_MERMAID_LONGING</td>
+					<td align="left">时装人鱼姬的思念的外观</td>
+				</tr>
+				<tr>
+					<td align="left">642</td>
+					<td align="left">SC_HAT_EFFECT</td>
+					<td align="left">时装天使的阶梯的外观</td>
+				</tr>
+				<tr>
+					<td align="left">643</td>
+					<td align="left">SC_FLOWERSMOKE</td>
+					<td align="left">时装未知名称的外观</td>
+				</tr>
+				<tr>
+					<td align="left">644</td>
+					<td align="left">SC_FSTONE</td>
+					<td align="left">时装飘浮的贤者之石的外观</td>
+				</tr>
+				<tr>
+					<td align="left">645</td>
+					<td align="left">SC_HAPPINESS_STAR</td>
+					<td align="left">时装未知名称的外观</td>
+				</tr>
+				<tr>
+					<td align="left">646</td>
+					<td align="left">SC_MAPLE_FALLS</td>
+					<td align="left">时装秋风落叶眼罩的外观</td>
+				</tr>
+				<tr>
+					<td align="left">647</td>
+					<td align="left">SC_TIME_ACCESSORY</td>
+					<td align="left">时装时间装饰品的外观</td>
+				</tr>
+				<tr>
+					<td align="left">648</td>
+					<td align="left">SC_MAGICAL_FEATHER</td>
+					<td align="left">时装未知名称的外观</td>
+				</tr>
+				<tr>
+					<td align="left">649</td>
+					<td align="left">SC_EXTREMITYFIST2</td>
+					<td align="left">阿修罗霸凰拳不能吃补品</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</body>
+</html>

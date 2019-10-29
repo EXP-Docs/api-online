@@ -2095,7 +2095,8 @@ sc_end_class {&lt;char_id&gt;{,&lt;job_id&gt;}};
         
         使指定对象陷入某种状态。
         
-        参数 &lt;effect type&gt; ：确定调用哪个状态，可以是数字或常量，可选范围为 [script_constants.hpp](https://github.com/lyy289065406/rathena/blob/master/src/map/script_constants.hpp) 中以 SC_ 为前缀的变量。
+        参数 &lt;effect type&gt; ：设置陷入的状态，可以是数字或常量。
+                             可选范围为 <a href="https://github.com/lyy289065406/rathena/blob/master/src/map/script_constants.hpp" target="_blank">script_constants.hpp</a> 中以 SC_ 为前缀的变量（为方便查阅整理成 <a href="./sc.html" target="_blank">表单</a> 了）。
         
         The duration of the status is given in &lt;ticks&gt;, or milleseconds.
         Use INFINITE_TICK for infinite duration.
